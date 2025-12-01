@@ -1,0 +1,36 @@
+{
+  "created": 1759793944963,
+  "description": "",
+  "id": "1",
+  "modified": 1759929423806,
+  "owner": "harrison.tremain@thames21",
+  "tags": [
+    ""
+  ],
+  "thumbnail": null,
+  "title": "Marsh Dykes and Thamesmead Data Store",
+  "type": "Web Experience",
+  "snippet": "",
+  "typeKeywords": [
+    "Copy Item",
+    "EXB Experience",
+    "JavaScript",
+    "Ready To Use",
+    "status: Changed",
+    "version:1.18.0",
+    "Web Application",
+    "Web Experience",
+    "Web Mapping Application",
+    "Web Page",
+    "Web Site",
+    "publishVersion:1.18.0"
+  ],
+  "portalUrl": "https://theriverstrust.maps.arcgis.com",
+  "username": "harrison.tremain@thames21",
+  "name": "Marsh Dykes and Thamesmead Data Store",
+  "isLocalApp": true,
+  "userRole": "org_publisher",
+  "success": true,
+  "clearEmptyFields": true,
+  "url": ""
+}

@@ -1,0 +1,31 @@
+{
+  "created": 1755546036096,
+  "description": "",
+  "id": "0",
+  "modified": 1755614411779,
+  "owner": "harrison.tremain@thames21",
+  "tags": [
+    ""
+  ],
+  "thumbnail": null,
+  "title": "MTT_Exp 1",
+  "type": "Web Experience",
+  "snippet": "",
+  "typeKeywords": [
+    "Copy Item",
+    "EXB Experience",
+    "JavaScript",
+    "Ready To Use",
+    "status: Draft",
+    "version:1.18.0",
+    "Web Application",
+    "Web Experience",
+    "Web Mapping Application",
+    "Web Page",
+    "Web Site"
+  ],
+  "portalUrl": "https://theriverstrust.maps.arcgis.com",
+  "username": "harrison.tremain@thames21",
+  "name": "MTT_Exp 1",
+  "isLocalApp": true
+}
