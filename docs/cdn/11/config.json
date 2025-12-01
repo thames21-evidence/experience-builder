@@ -1,0 +1,2453 @@
+{
+  "pages": {
+    "page_2": {
+      "id": "page_2",
+      "mode": "FIT_WINDOW",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_39",
+        "MEDIUM": "layout_57",
+        "SMALL": "layout_63"
+      },
+      "isDefault": true,
+      "isVisible": true,
+      "label": "Home",
+      "header": false,
+      "footer": false
+    }
+  },
+  "layouts": {
+    "layout_39": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "-0.0%",
+            "right": "25.9%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "74.1%",
+            "height": "100.0%"
+          },
+          "widgetId": "widget_58",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        },
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_168",
+          "bbox": {
+            "left": "70.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "93.7%",
+            "width": "30.0%",
+            "height": "6.3%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": true
+        },
+        "4": {
+          "type": "SECTION",
+          "sectionId": "section_11",
+          "bbox": {
+            "left": "74.1%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "25.9%",
+            "height": "100.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0",
+        "3",
+        "4"
+      ]
+    },
+    "layout_40": {
+      "type": "FIXED",
+      "order": [],
+      "content": {},
+      "label": "Map FixedLayout"
+    },
+    "layout_57": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "50.00%"
+          },
+          "widgetId": "widget_58",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": false,
+              "height": "CUSTOM",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        },
+        "1": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "top": true,
+              "bottom": false,
+              "height": "CUSTOM",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "50.00%"
+          },
+          "widgetId": "widget_71"
+        }
+      },
+      "order": [
+        "0",
+        "1"
+      ]
+    },
+    "layout_58": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "50%",
+            "right": "12.1%",
+            "top": "84.5%",
+            "bottom": "3.00%",
+            "width": "96.00%",
+            "height": "12.00%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false,
+              "height": "CUSTOM"
+            },
+            "vCenter": false,
+            "hCenter": true
+          },
+          "isPending": false
+        }
+      },
+      "order": [
+        "0"
+      ],
+      "label": "Map FixedLayout"
+    },
+    "layout_59": {
+      "type": "FIXED",
+      "content": {},
+      "order": [],
+      "label": "Default"
+    },
+    "layout_63": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "40.00%"
+          },
+          "widgetId": "widget_58",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": false,
+              "height": "CUSTOM",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        },
+        "1": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "top": true,
+              "bottom": false,
+              "height": "CUSTOM",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "60.00%"
+          },
+          "widgetId": "widget_72"
+        }
+      },
+      "order": [
+        "0",
+        "1"
+      ]
+    },
+    "layout_64": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "1.00%",
+            "right": "12.1%",
+            "top": "84.5%",
+            "bottom": "3.00%",
+            "width": "85.00%",
+            "height": "15.00%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false,
+              "height": "CUSTOM"
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        }
+      },
+      "order": [
+        "0"
+      ],
+      "label": "Map FixedLayout"
+    },
+    "layout_65": {
+      "type": "FIXED",
+      "content": {},
+      "order": [],
+      "label": "Default"
+    },
+    "layout_264": {
+      "content": {
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_221",
+          "bbox": {
+            "width": "282px",
+            "height": "91px"
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_223",
+          "bbox": {
+            "width": "332px",
+            "height": "50px"
+          }
+        },
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_317",
+          "bbox": {
+            "width": "332px",
+            "height": "50px"
+          }
+        },
+        "4": {
+          "type": "WIDGET",
+          "widgetId": "widget_318",
+          "bbox": {
+            "width": "332px",
+            "height": 174
+          }
+        },
+        "5": {
+          "type": "WIDGET",
+          "widgetId": "widget_375",
+          "bbox": {
+            "width": "220px",
+            "height": "50px"
+          }
+        },
+        "6": {
+          "type": "WIDGET",
+          "widgetId": "widget_381",
+          "bbox": {
+            "width": "332px",
+            "height": "50px"
+          }
+        },
+        "7": {
+          "type": "WIDGET",
+          "widgetId": "widget_382",
+          "bbox": {
+            "width": "332px",
+            "height": "50px"
+          }
+        }
+      },
+      "type": "COLUMN",
+      "label": "Default",
+      "order": [
+        "1",
+        "4",
+        "3",
+        "2",
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    "layout_266": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_304",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "-0.0%",
+            "bottom": "0.3%",
+            "width": "100.0%",
+            "height": "99.8%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_267": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_309",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.1%",
+            "top": "0.0%",
+            "bottom": "11.0%",
+            "width": "99.9%",
+            "height": "89.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": true,
+              "left": false,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_310",
+          "bbox": {
+            "left": "-0.1%",
+            "right": "0.0%",
+            "top": "93.8%",
+            "bottom": "-0.1%",
+            "width": "100.1%",
+            "height": "6.3%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            }
+          }
+        }
+      },
+      "order": [
+        "0",
+        "1"
+      ]
+    },
+    "layout_268": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_306",
+          "bbox": {
+            "width": "331px",
+            "height": "116px"
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_307",
+          "bbox": {
+            "width": "331px",
+            "height": "41px"
+          }
+        },
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_305",
+          "bbox": {
+            "width": "328px",
+            "height": "70px"
+          }
+        }
+      },
+      "type": "COLUMN",
+      "label": "Default",
+      "order": [
+        "3",
+        "0",
+        "1"
+      ]
+    },
+    "layout_269": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_311",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.1%",
+            "top": "13.1%",
+            "bottom": "4.2%",
+            "width": "99.9%",
+            "height": "82.7%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": true,
+              "left": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_312",
+          "bbox": {
+            "left": "0.1%",
+            "right": "0.0%",
+            "top": "94.9%",
+            "bottom": "0.1%",
+            "width": "99.9%",
+            "height": "5.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            }
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_371",
+          "bbox": {
+            "left": "0.1%",
+            "right": "0.0%",
+            "top": "2.1%",
+            "bottom": "89.1%",
+            "width": "99.9%",
+            "height": "8.8%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            }
+          }
+        }
+      },
+      "order": [
+        "0",
+        "1",
+        "2"
+      ]
+    },
+    "layout_270": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_313",
+          "bbox": {
+            "width": "262px",
+            "height": "121px"
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_314",
+          "bbox": {
+            "width": "331px",
+            "height": 59
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_315",
+          "bbox": {
+            "width": "262px",
+            "height": "121px"
+          }
+        },
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_316",
+          "bbox": {
+            "width": "331px",
+            "height": 52
+          }
+        }
+      },
+      "type": "COLUMN",
+      "label": "Default",
+      "order": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "layout_297": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_372",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "6.9%",
+            "width": "100.0%",
+            "height": "93.1%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_377",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "93.0%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "7.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            }
+          }
+        }
+      },
+      "order": [
+        "0",
+        "1"
+      ]
+    },
+    "layout_298": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_373",
+          "bbox": {
+            "width": "332px",
+            "height": 51
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_374",
+          "bbox": {
+            "width": "332px",
+            "height": "104px"
+          },
+          "setting": {
+            "autoProps": {
+              "width": "CUSTOM",
+              "height": "AUTO"
+            }
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_376",
+          "bbox": {
+            "width": "332px",
+            "height": 154
+          }
+        }
+      },
+      "type": "COLUMN",
+      "label": "Default",
+      "order": [
+        "2",
+        "0",
+        "1"
+      ]
+    },
+    "layout_299": {
+      "type": "FIXED",
+      "content": {
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_380",
+          "bbox": {
+            "left": "0.1%",
+            "right": "0.0%",
+            "top": "93.7%",
+            "bottom": "0.0%",
+            "width": "99.9%",
+            "height": "6.3%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_388",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "6.2%",
+            "width": "100.0%",
+            "height": "93.8%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "2",
+        "3"
+      ]
+    },
+    "layout_300": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_387",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "7.1%",
+            "width": "100.0%",
+            "height": "92.9%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": false,
+              "bottom": true
+            }
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_390",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "92.7%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "7.3%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0",
+        "1"
+      ]
+    },
+    "layout_301": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_383",
+          "bbox": {
+            "width": "332px",
+            "height": "70px"
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_384",
+          "bbox": {
+            "width": "332px",
+            "height": "123px"
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_385",
+          "bbox": {
+            "width": "332px",
+            "height": "52px"
+          }
+        },
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_391",
+          "bbox": {
+            "width": "332px",
+            "height": "52px"
+          }
+        }
+      },
+      "type": "COLUMN",
+      "label": "Default",
+      "order": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "layout_302": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_378",
+          "bbox": {
+            "width": "332px",
+            "height": "165px"
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_379",
+          "bbox": {
+            "width": "332px",
+            "height": "105px"
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_389",
+          "bbox": {
+            "width": "332px",
+            "height": "70px"
+          }
+        }
+      },
+      "type": "COLUMN",
+      "label": "Default",
+      "order": [
+        "2",
+        "0",
+        "1"
+      ]
+    }
+  },
+  "exbVersion": "1.18.0",
+  "mainSizeMode": "LARGE",
+  "theme": "themes/default/",
+  "forBuilderAttributes": {
+    "lockLayout": false
+  },
+  "template": "4885f8ef2ff44512987a9cfedc9505be",
+  "widgets": {
+    "widget_58": {
+      "uri": "widgets/arcgis/arcgis-map/",
+      "version": "1.18.0",
+      "label": "Map ",
+      "config": {
+        "toolConfig": {
+          "canZoom": true,
+          "canHome": true,
+          "canSearch": true,
+          "canNavigation": true,
+          "canLayers": false,
+          "canCompass": true,
+          "canOverviewMap": false,
+          "canBaseMap": true,
+          "canExtentNavigate": false,
+          "canLocate": false
+        },
+        "isUseCustomMapState": true,
+        "initialMapDataSourceID": "dataSource_5",
+        "initialMapState": {
+          "viewPoint": {
+            "rotation": 0,
+            "scale": 577790.554289,
+            "targetGeometry": {
+              "spatialReference": {
+                "latestWkid": 3857,
+                "wkid": 102100
+              },
+              "x": -67243.72834152482,
+              "y": 6710251.429313765
+            }
+          },
+          "extent": {
+            "spatialReference": {
+              "latestWkid": 3857,
+              "wkid": 102100
+            },
+            "xmin": -115781.24130263034,
+            "ymin": 6669281.182152894,
+            "xmax": -18706.215380419315,
+            "ymax": 6751221.6764746355
+          },
+          "rotation": 0,
+          "viewType": "2d"
+        },
+        "scaleRange": {
+          "minScale": 430107.142472
+        },
+        "layoutIndex": 0,
+        "showPopupUponSelection": false,
+        "clientQueryDataSourceIds": []
+      },
+      "id": "widget_58",
+      "layouts": {
+        "MapFixedLayout": {
+          "LARGE": "layout_40",
+          "MEDIUM": "layout_58",
+          "SMALL": "layout_64"
+        }
+      },
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_5",
+          "mainDataSourceId": "dataSource_5"
+        }
+      ],
+      "dataActions": {
+        "showOnMap": {
+          "config": {
+            "isUseCustomSymbol": true,
+            "isOperationalLayer": true,
+            "symbolOption": {
+              "pointSymbol": {
+                "type": "esriSMS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0,
+                "size": 12,
+                "style": "esriSMSCircle",
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                }
+              },
+              "polylineSymbol": {
+                "type": "esriSLS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "width": 0.75,
+                "style": "esriSLSSolid"
+              },
+              "polygonSymbol": {
+                "type": "esriSFS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                },
+                "style": "esriSFSSolid"
+              }
+            }
+          }
+        },
+        "showPopup": {
+          "enabled": false
+        },
+        "zoomToFeature": {
+          "enabled": false
+        }
+      },
+      "showAllDataCount": false
+    },
+    "widget_71": {
+      "uri": "widgets/layout/fixed/",
+      "version": "1.18.0",
+      "label": "Fixed Panel 5",
+      "config": null,
+      "id": "widget_71",
+      "layouts": {
+        "DEFAULT": {
+          "MEDIUM": "layout_59"
+        }
+      }
+    },
+    "widget_72": {
+      "uri": "widgets/layout/fixed/",
+      "version": "1.18.0",
+      "label": "Fixed Panel 6",
+      "config": null,
+      "id": "widget_72",
+      "layouts": {
+        "DEFAULT": {
+          "SMALL": "layout_65"
+        }
+      }
+    },
+    "widget_168": {
+      "uri": "widgets/common/button/",
+      "version": "1.18.0",
+      "label": "Button 7",
+      "config": {
+        "functionConfig": {
+          "textExpression": {
+            "name": "",
+            "parts": [
+              {
+                "type": "STRING",
+                "exp": "\"Button\""
+              }
+            ]
+          },
+          "toolTipExpression": {
+            "name": "",
+            "parts": []
+          }
+        },
+        "styleConfig": {
+          "themeStyle": {
+            "quickStyleType": "default"
+          }
+        }
+      },
+      "id": "widget_168",
+      "useDataSourcesEnabled": true,
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_5-198a59c6fe7-layer-11",
+          "mainDataSourceId": "dataSource_5-198a59c6fe7-layer-11",
+          "rootDataSourceId": "dataSource_5",
+          "fields": []
+        }
+      ]
+    },
+    "widget_221": {
+      "uri": "widgets/common/text/",
+      "version": "1.18.0",
+      "label": "Text 3",
+      "config": {
+        "text": "<p><strong style=\"font-size: 25px;\">﻿Maidenhead to Teddington Data Store</strong></p>",
+        "style": {
+          "wrap": true
+        }
+      },
+      "id": "widget_221"
+    },
+    "widget_223": {
+      "uri": "widgets/common/button/",
+      "version": "1.18.0",
+      "label": "Button 10",
+      "config": {
+        "functionConfig": {
+          "linkParam": {
+            "linkType": "VIEW",
+            "value": "page_2,view_21",
+            "openType": "_self"
+          },
+          "text": "Outfalls",
+          "textExpression": null
+        },
+        "styleConfig": {
+          "themeStyle": {
+            "quickStyleType": "primary"
+          },
+          "useCustom": false
+        }
+      },
+      "id": "widget_223"
+    },
+    "widget_304": {
+      "uri": "widgets/layout/column/",
+      "version": "1.18.0",
+      "label": "Column 4",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "space": [
+              10
+            ],
+            "unit": "px"
+          },
+          "justifyContent": "flex-start",
+          "alignItems": "stretch"
+        }
+      },
+      "id": "widget_304",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_264"
+        }
+      }
+    },
+    "widget_305": {
+      "uri": "widgets/common/text/",
+      "version": "1.18.0",
+      "label": "Text 9",
+      "config": {
+        "text": "<p><strong style=\"font-size: 32px;\">Outfalls</strong></p>",
+        "style": {
+          "wrap": true
+        }
+      },
+      "id": "widget_305"
+    },
+    "widget_306": {
+      "uri": "widgets/common/image/",
+      "version": "1.18.0",
+      "label": "Image 8",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "https://standfirst-designweek-production.imgix.net/uploads/2023/02/23161210/ZSL_logo.jpg?fit=crop&crop=faces&q=80&auto=compress,format&w=750&h=422&dpr=2",
+            "originalUrl": "https://standfirst-designweek-production.imgix.net/uploads/2023/02/23161210/ZSL_logo.jpg?fit=crop&crop=faces&q=80&auto=compress,format&w=750&h=422&dpr=2",
+            "fileName": "ZSL_logo.jpg",
+            "originalName": "ZSL_logo.jpg",
+            "imgSourceType": "BY_URL"
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_306"
+    },
+    "widget_307": {
+      "uri": "widgets/arcgis/map-layers/",
+      "version": "1.18.0",
+      "label": "Map Layers 11",
+      "config": {
+        "useMapWidget": true,
+        "customizeLayerOptions": {
+          "widget_240-dataSource_5": {
+            "isEnabled": true,
+            "showJimuLayerViewIds": [
+              "widget_240-dataSource_5-198a2fa4d6c-layer-12"
+            ],
+            "hiddenJimuLayerViewIds": []
+          },
+          "widget_58-dataSource_5": {
+            "isEnabled": true,
+            "hiddenJimuLayerViewIds": [],
+            "showJimuLayerViewIds": [
+              "widget_58-dataSource_5-198a2fa4d6c-layer-12"
+            ]
+          },
+          "widget_58-dataSource_7": {
+            "isEnabled": false,
+            "hiddenJimuLayerViewIds": [],
+            "showJimuLayerViewIds": []
+          }
+        },
+        "popup": false,
+        "enableLegend": false,
+        "label": false,
+        "useTickBoxes": true
+      },
+      "id": "widget_307",
+      "useMapWidgetIds": [
+        "widget_58"
+      ],
+      "useDataSources": []
+    },
+    "widget_309": {
+      "uri": "widgets/layout/column/",
+      "version": "1.18.0",
+      "label": "Column 5",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "space": [
+              10
+            ],
+            "unit": "px"
+          },
+          "justifyContent": "flex-start",
+          "alignItems": "stretch"
+        }
+      },
+      "id": "widget_309",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_268"
+        }
+      }
+    },
+    "widget_310": {
+      "uri": "widgets/common/button/",
+      "version": "1.18.0",
+      "label": "Button 18",
+      "config": {
+        "functionConfig": {
+          "text": "Home",
+          "textExpression": null,
+          "linkParam": {
+            "linkType": "VIEW",
+            "value": "page_2,view_20",
+            "openType": "_self"
+          }
+        },
+        "styleConfig": {
+          "themeStyle": {
+            "quickStyleType": "default"
+          }
+        }
+      },
+      "id": "widget_310"
+    },
+    "widget_311": {
+      "uri": "widgets/layout/column/",
+      "version": "1.18.0",
+      "label": "Column 6",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "space": [
+              10
+            ],
+            "unit": "px"
+          },
+          "justifyContent": "flex-start",
+          "alignItems": "stretch"
+        }
+      },
+      "id": "widget_311",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_270"
+        }
+      }
+    },
+    "widget_312": {
+      "uri": "widgets/common/button/",
+      "version": "1.18.0",
+      "label": "Button 19",
+      "config": {
+        "functionConfig": {
+          "text": "Home",
+          "textExpression": null,
+          "linkParam": {
+            "linkType": "VIEW",
+            "value": "page_2,view_20",
+            "openType": "_self"
+          }
+        },
+        "styleConfig": {
+          "themeStyle": {
+            "quickStyleType": "default"
+          }
+        }
+      },
+      "id": "widget_312"
+    },
+    "widget_313": {
+      "uri": "widgets/common/image/",
+      "version": "1.18.0",
+      "label": "Image 9",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {
+            "linkType": "WEB_ADDRESS",
+            "openType": "_blank",
+            "value": "https://www.google.com/imgres?q=amber%20barrier%20atlas%20google%20images&imgurl=https%3A%2F%2Fwww.arcgis.com%2Fsharing%2Frest%2Fcontent%2Fitems%2Fd19e23e2bcfb4a58b83866ea06fa65f9%2Finfo%2Fthumbnail%2Fthumbnail1555509564747.png%3Ff%3Djson&imgrefurl=https%3A%2F%2Fwww.arcgis.com%2Fhome%2Fitem.html%3Fid%3Dd19e23e2bcfb4a58b83866ea06fa65f9&docid=8u0MwH-D4ephRM&tbnid=_piXRTmz_3CuHM&vet=12ahUKEwiCntDU9e-PAxWNwAIHHeYuIfUQM3oECCkQAA..i&w=200&h=133&hcb=2&itg=1&ved=2ahUKEwiCntDU9e-PAxWNwAIHHeYuIfUQM3oECCkQAA",
+            "expression": null
+          },
+          "scale": "Fit",
+          "imageParam": {
+            "url": "https://amber.international/wp-content/uploads/2019/06/Logo-AMBER-hi-res-print-1.png",
+            "originalUrl": "https://amber.international/wp-content/uploads/2019/06/Logo-AMBER-hi-res-print-1.png",
+            "fileName": "Logo-AMBER-hi-res-print-1.png",
+            "originalName": "Logo-AMBER-hi-res-print-1.png",
+            "imgSourceType": "BY_URL"
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_313",
+      "useDataSources": []
+    },
+    "widget_314": {
+      "uri": "widgets/arcgis/map-layers/",
+      "version": "1.18.0",
+      "label": "Map Layers 12",
+      "config": {
+        "useMapWidget": true,
+        "customizeLayerOptions": {
+          "widget_258-dataSource_5": {
+            "isEnabled": true,
+            "showJimuLayerViewIds": [
+              "widget_258-dataSource_5-198a4f9f06a-layer-7"
+            ],
+            "hiddenJimuLayerViewIds": []
+          },
+          "widget_58-dataSource_5": {
+            "isEnabled": true,
+            "hiddenJimuLayerViewIds": [],
+            "showJimuLayerViewIds": [
+              "widget_58-dataSource_5-198a4f9f06a-layer-7"
+            ]
+          }
+        },
+        "popup": false,
+        "enableLegend": false,
+        "label": false,
+        "useTickBoxes": true
+      },
+      "id": "widget_314",
+      "useMapWidgetIds": [
+        "widget_58"
+      ],
+      "useDataSources": []
+    },
+    "widget_315": {
+      "uri": "widgets/common/image/",
+      "version": "1.18.0",
+      "label": "Image 10",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "https://www.arcgis.com/sharing/rest/content/items/59df870c643149d79622454ab490c1bf/info/thumbnail/thumbnail1748010810572.png?w=800",
+            "originalUrl": "https://www.arcgis.com/sharing/rest/content/items/59df870c643149d79622454ab490c1bf/info/thumbnail/thumbnail1748010810572.png?w=800",
+            "fileName": "thumbnail1748010810572.png",
+            "originalName": "thumbnail1748010810572.png",
+            "imgSourceType": "BY_URL"
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_315"
+    },
+    "widget_316": {
+      "uri": "widgets/arcgis/map-layers/",
+      "version": "1.18.0",
+      "label": "Map Layers 13",
+      "config": {
+        "useMapWidget": true,
+        "customizeLayerOptions": {
+          "widget_258-dataSource_5": {
+            "isEnabled": true,
+            "showJimuLayerViewIds": [
+              "widget_258-dataSource_5-198a4f9ecdf-layer-6"
+            ],
+            "hiddenJimuLayerViewIds": []
+          },
+          "widget_58-dataSource_5": {
+            "isEnabled": true,
+            "hiddenJimuLayerViewIds": [],
+            "showJimuLayerViewIds": [
+              "widget_58-dataSource_5-198a4f9ecdf-layer-6"
+            ]
+          }
+        },
+        "popup": false,
+        "enableLegend": false,
+        "label": false,
+        "useTickBoxes": true
+      },
+      "id": "widget_316",
+      "useMapWidgetIds": [
+        "widget_58"
+      ],
+      "useDataSources": []
+    },
+    "widget_317": {
+      "uri": "widgets/common/button/",
+      "version": "1.18.0",
+      "label": "Button 20",
+      "config": {
+        "functionConfig": {
+          "linkParam": {
+            "linkType": "VIEW",
+            "value": "page_2,view_22",
+            "openType": "_self"
+          },
+          "text": "Barriers",
+          "textExpression": null
+        },
+        "styleConfig": {
+          "themeStyle": {
+            "quickStyleType": "primary"
+          },
+          "useCustom": false
+        }
+      },
+      "id": "widget_317"
+    },
+    "widget_318": {
+      "uri": "widgets/arcgis/map-layers/",
+      "version": "1.18.0",
+      "label": "Map Layers 14",
+      "config": {
+        "useMapWidget": true,
+        "customizeLayerOptions": {
+          "widget_58-dataSource_5": {
+            "isEnabled": true,
+            "hiddenJimuLayerViewIds": [],
+            "showJimuLayerViewIds": [
+              "widget_58-dataSource_5-198a4feef61-layer-10",
+              "widget_58-dataSource_5-198a2f0f513-layer-11",
+              "widget_58-dataSource_5-198a4fea86b-layer-9"
+            ]
+          }
+        },
+        "useTickBoxes": true,
+        "enableLegend": false
+      },
+      "id": "widget_318",
+      "useMapWidgetIds": [
+        "widget_58"
+      ]
+    },
+    "widget_371": {
+      "uri": "widgets/common/text/",
+      "version": "1.18.0",
+      "label": "Text 10",
+      "config": {
+        "text": "<p><strong style=\"font-size: 33px;\">﻿Barriers﻿</strong></p>",
+        "style": {
+          "wrap": true
+        }
+      },
+      "id": "widget_371"
+    },
+    "widget_372": {
+      "uri": "widgets/layout/column/",
+      "version": "1.18.0",
+      "label": "Column 7",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "space": [
+              10
+            ],
+            "unit": "px"
+          },
+          "justifyContent": "flex-start",
+          "alignItems": "stretch"
+        }
+      },
+      "id": "widget_372",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_298"
+        }
+      }
+    },
+    "widget_373": {
+      "uri": "widgets/arcgis/map-layers/",
+      "version": "1.18.0",
+      "label": "Map Layers 15",
+      "config": {
+        "useMapWidget": true,
+        "customizeLayerOptions": {
+          "widget_58-dataSource_5": {
+            "isEnabled": true,
+            "hiddenJimuLayerViewIds": [],
+            "showJimuLayerViewIds": [
+              "widget_58-dataSource_5-198a4fa4ad2-layer-8"
+            ]
+          }
+        },
+        "popup": false,
+        "useTickBoxes": true,
+        "enableLegend": false,
+        "information": true
+      },
+      "id": "widget_373",
+      "useMapWidgetIds": [
+        "widget_58"
+      ],
+      "style": {
+        "borderRadius": null,
+        "border": {
+          "color": null,
+          "type": "solid",
+          "width": "2px"
+        }
+      }
+    },
+    "widget_374": {
+      "uri": "widgets/common/filter/",
+      "version": "1.18.0",
+      "label": "edm filter",
+      "config": {
+        "logicalOperator": "OR",
+        "filterItems": [
+          {
+            "type": "SINGLE",
+            "name": "2024",
+            "useDataSources": [
+              {
+                "dataSourceId": "dataSource_5-198a4fa4ad2-layer-8",
+                "mainDataSourceId": "dataSource_5-198a4fa4ad2-layer-8",
+                "rootDataSourceId": "dataSource_5",
+                "fields": [
+                  "Year"
+                ]
+              }
+            ],
+            "icon": {
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M15 1.53V0H1v1.53h.07l5.374 5.288v6.121l2.26 2.224a.5.5 0 0 0 .852-.356V6.825l5.382-5.295zM2 1h12v.049L8.556 6.406l-.001 7.207-1.111-1.093V6.399L2 1.042z\" clip-rule=\"evenodd\"></path></svg>",
+              "properties": {
+                "color": "",
+                "filename": "Filter",
+                "originalName": "filter.svg",
+                "inlineSvg": true,
+                "size": 14
+              }
+            },
+            "sqlExprObj": {
+              "logicalOperator": "AND",
+              "parts": [
+                {
+                  "type": "SINGLE",
+                  "jimuFieldName": "Year",
+                  "operator": "DATE_ONLY_OPERATOR_IS_BETWEEN",
+                  "valueOptions": {
+                    "isValid": true,
+                    "sourceType": "USER_INPUT",
+                    "inputEditor": "DOUBLE_DATE_ONLY_PICKER",
+                    "value": [
+                      {
+                        "value": "2024-01-01",
+                        "label": "1/01/2024"
+                      },
+                      {
+                        "value": "2024-12-31",
+                        "label": "31/12/2024"
+                      }
+                    ]
+                  },
+                  "displayType": "NONE",
+                  "askForValueOptions": null,
+                  "displayLabel": null,
+                  "caseSensitive": false
+                }
+              ],
+              "sql": "Year BETWEEN DATE '2024-01-01' AND DATE '2024-12-31'",
+              "displaySQL": "(Year is between 1/01/2024 and 31/12/2024)"
+            },
+            "autoApplyWhenWidgetOpen": true,
+            "collapseFilterExprs": false
+          },
+          {
+            "type": "SINGLE",
+            "name": "2023",
+            "useDataSources": [
+              {
+                "dataSourceId": "dataSource_5-198a4fa4ad2-layer-8",
+                "mainDataSourceId": "dataSource_5-198a4fa4ad2-layer-8",
+                "rootDataSourceId": "dataSource_5",
+                "fields": [
+                  "Year"
+                ]
+              }
+            ],
+            "icon": {
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M15 1.53V0H1v1.53h.07l5.374 5.288v6.121l2.26 2.224a.5.5 0 0 0 .852-.356V6.825l5.382-5.295zM2 1h12v.049L8.556 6.406l-.001 7.207-1.111-1.093V6.399L2 1.042z\" clip-rule=\"evenodd\"></path></svg>",
+              "properties": {
+                "color": "",
+                "filename": "Filter",
+                "originalName": "filter.svg",
+                "inlineSvg": true,
+                "size": 14
+              }
+            },
+            "sqlExprObj": {
+              "logicalOperator": "OR",
+              "parts": [
+                {
+                  "type": "SINGLE",
+                  "jimuFieldName": "Year",
+                  "operator": "DATE_ONLY_OPERATOR_IS_BETWEEN",
+                  "valueOptions": {
+                    "isValid": true,
+                    "sourceType": "USER_INPUT",
+                    "inputEditor": "DOUBLE_DATE_ONLY_PICKER",
+                    "value": [
+                      {
+                        "value": "2021-01-01",
+                        "label": "1/01/2021"
+                      },
+                      {
+                        "value": "2021-12-01",
+                        "label": "1/12/2021"
+                      }
+                    ]
+                  },
+                  "displayType": "NONE",
+                  "askForValueOptions": null,
+                  "displayLabel": null,
+                  "caseSensitive": false
+                }
+              ],
+              "sql": "Year BETWEEN DATE '2021-01-01' AND DATE '2021-12-01'",
+              "displaySQL": "(Year is between 1/01/2021 and 1/12/2021)"
+            },
+            "autoApplyWhenWidgetOpen": true,
+            "collapseFilterExprs": false
+          },
+          {
+            "type": "SINGLE",
+            "name": "2022",
+            "useDataSources": [
+              {
+                "dataSourceId": "dataSource_5-198a4fa4ad2-layer-8",
+                "mainDataSourceId": "dataSource_5-198a4fa4ad2-layer-8",
+                "rootDataSourceId": "dataSource_5",
+                "fields": [
+                  "Year"
+                ]
+              }
+            ],
+            "icon": {
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M15 1.53V0H1v1.53h.07l5.374 5.288v6.121l2.26 2.224a.5.5 0 0 0 .852-.356V6.825l5.382-5.295zM2 1h12v.049L8.556 6.406l-.001 7.207-1.111-1.093V6.399L2 1.042z\" clip-rule=\"evenodd\"></path></svg>",
+              "properties": {
+                "color": "",
+                "filename": "Filter",
+                "originalName": "filter.svg",
+                "inlineSvg": true,
+                "size": 14
+              }
+            },
+            "sqlExprObj": {
+              "logicalOperator": "AND",
+              "parts": [
+                {
+                  "type": "SINGLE",
+                  "jimuFieldName": "Year",
+                  "operator": "DATE_ONLY_OPERATOR_IS_BETWEEN",
+                  "valueOptions": {
+                    "isValid": true,
+                    "sourceType": "USER_INPUT",
+                    "inputEditor": "DOUBLE_DATE_ONLY_PICKER",
+                    "value": [
+                      {
+                        "value": "2022-01-01",
+                        "label": "1/01/2022"
+                      },
+                      {
+                        "value": "2022-12-19",
+                        "label": "19/12/2022"
+                      }
+                    ]
+                  },
+                  "displayType": "NONE",
+                  "askForValueOptions": null,
+                  "displayLabel": null,
+                  "caseSensitive": false
+                }
+              ],
+              "sql": "Year BETWEEN DATE '2022-01-01' AND DATE '2022-12-19'",
+              "displaySQL": "(Year is between 1/01/2022 and 19/12/2022)"
+            },
+            "autoApplyWhenWidgetOpen": true,
+            "collapseFilterExprs": false
+          },
+          {
+            "type": "SINGLE",
+            "name": "2021",
+            "useDataSources": [
+              {
+                "dataSourceId": "dataSource_5-198a4fa4ad2-layer-8",
+                "mainDataSourceId": "dataSource_5-198a4fa4ad2-layer-8",
+                "rootDataSourceId": "dataSource_5",
+                "fields": [
+                  "Year"
+                ]
+              }
+            ],
+            "icon": {
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M15 1.53V0H1v1.53h.07l5.374 5.288v6.121l2.26 2.224a.5.5 0 0 0 .852-.356V6.825l5.382-5.295zM2 1h12v.049L8.556 6.406l-.001 7.207-1.111-1.093V6.399L2 1.042z\" clip-rule=\"evenodd\"></path></svg>",
+              "properties": {
+                "color": "",
+                "filename": "Filter",
+                "originalName": "filter.svg",
+                "inlineSvg": true,
+                "size": 14
+              }
+            },
+            "sqlExprObj": {
+              "logicalOperator": "AND",
+              "parts": [
+                {
+                  "type": "SINGLE",
+                  "jimuFieldName": "Year",
+                  "operator": "DATE_ONLY_OPERATOR_IS_BETWEEN",
+                  "valueOptions": {
+                    "isValid": true,
+                    "sourceType": "USER_INPUT",
+                    "inputEditor": "DOUBLE_DATE_ONLY_PICKER",
+                    "value": [
+                      {
+                        "value": "2021-01-01",
+                        "label": "1/01/2021"
+                      },
+                      {
+                        "value": "2021-12-31",
+                        "label": "31/12/2021"
+                      }
+                    ]
+                  },
+                  "displayType": "NONE",
+                  "askForValueOptions": null,
+                  "displayLabel": null,
+                  "caseSensitive": false
+                }
+              ],
+              "sql": "Year BETWEEN DATE '2021-01-01' AND DATE '2021-12-31'",
+              "displaySQL": "(Year is between 1/01/2021 and 31/12/2021)"
+            },
+            "autoApplyWhenWidgetOpen": true,
+            "collapseFilterExprs": false
+          },
+          {
+            "type": "SINGLE",
+            "name": "2020",
+            "useDataSources": [
+              {
+                "dataSourceId": "dataSource_5-198a4fa4ad2-layer-8",
+                "mainDataSourceId": "dataSource_5-198a4fa4ad2-layer-8",
+                "rootDataSourceId": "dataSource_5",
+                "fields": [
+                  "Year"
+                ]
+              }
+            ],
+            "icon": {
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M15 1.53V0H1v1.53h.07l5.374 5.288v6.121l2.26 2.224a.5.5 0 0 0 .852-.356V6.825l5.382-5.295zM2 1h12v.049L8.556 6.406l-.001 7.207-1.111-1.093V6.399L2 1.042z\" clip-rule=\"evenodd\"></path></svg>",
+              "properties": {
+                "color": "",
+                "filename": "Filter",
+                "originalName": "filter.svg",
+                "inlineSvg": true,
+                "size": 14
+              }
+            },
+            "sqlExprObj": {
+              "logicalOperator": "AND",
+              "parts": [
+                {
+                  "type": "SINGLE",
+                  "jimuFieldName": "Year",
+                  "operator": "DATE_ONLY_OPERATOR_IS_BETWEEN",
+                  "valueOptions": {
+                    "isValid": true,
+                    "sourceType": "USER_INPUT",
+                    "inputEditor": "DOUBLE_DATE_ONLY_PICKER",
+                    "value": [
+                      {
+                        "value": "2020-01-01",
+                        "label": "1/01/2020"
+                      },
+                      {
+                        "value": "2020-12-31",
+                        "label": "31/12/2020"
+                      }
+                    ]
+                  },
+                  "displayType": "NONE",
+                  "askForValueOptions": null,
+                  "displayLabel": null,
+                  "caseSensitive": false
+                }
+              ],
+              "sql": "Year BETWEEN DATE '2020-01-01' AND DATE '2020-12-31'",
+              "displaySQL": "(Year is between 1/01/2020 and 31/12/2020)"
+            },
+            "autoApplyWhenWidgetOpen": true,
+            "collapseFilterExprs": false
+          }
+        ],
+        "arrangeType": "INLINE",
+        "triggerType": "TOGGLE",
+        "omitInternalStyle": false,
+        "resetAll": false,
+        "turnOffAll": false,
+        "wrap": true
+      },
+      "id": "widget_374",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_5-198a4fa4ad2-layer-8",
+          "mainDataSourceId": "dataSource_5-198a4fa4ad2-layer-8",
+          "rootDataSourceId": "dataSource_5",
+          "fields": [
+            "Year"
+          ]
+        }
+      ]
+    },
+    "widget_375": {
+      "uri": "widgets/common/button/",
+      "version": "1.18.0",
+      "label": "Button 21",
+      "config": {
+        "functionConfig": {
+          "text": "Spills",
+          "textExpression": null,
+          "linkParam": {
+            "linkType": "VIEW",
+            "value": "page_2,view_23",
+            "openType": "_self"
+          }
+        },
+        "styleConfig": {
+          "themeStyle": {
+            "quickStyleType": "primary"
+          },
+          "useCustom": false
+        }
+      },
+      "id": "widget_375"
+    },
+    "widget_376": {
+      "uri": "widgets/common/image/",
+      "version": "1.18.0",
+      "label": "Image 11",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "data:image/png;base64,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",
+            "originalUrl": "data:image/png;base64,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",
+            "fileName": "cYQGMAAAAASUVORK5CYII=",
+            "originalName": "cYQGMAAAAASUVORK5CYII=",
+            "imgSourceType": "BY_URL"
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_376"
+    },
+    "widget_377": {
+      "uri": "widgets/common/button/",
+      "version": "1.18.0",
+      "label": "Button 22",
+      "config": {
+        "functionConfig": {
+          "text": "Home",
+          "textExpression": null,
+          "linkParam": {
+            "linkType": "VIEW",
+            "value": "page_2,view_20",
+            "openType": "_self"
+          }
+        },
+        "styleConfig": {
+          "themeStyle": {
+            "quickStyleType": "default"
+          }
+        }
+      },
+      "id": "widget_377"
+    },
+    "widget_378": {
+      "uri": "widgets/common/image/",
+      "version": "1.18.0",
+      "label": "Image 12",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "https://castco.org/wp-content/uploads/2024/10/Screenshot-on-2024-10-03-at-11-57-30.jpg",
+            "originalUrl": "https://castco.org/wp-content/uploads/2024/10/Screenshot-on-2024-10-03-at-11-57-30.jpg",
+            "fileName": "Screenshot-on-2024-10-03-at-11-57-30.jpg",
+            "originalName": "Screenshot-on-2024-10-03-at-11-57-30.jpg",
+            "imgSourceType": "BY_URL"
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_378"
+    },
+    "widget_379": {
+      "uri": "widgets/arcgis/map-layers/",
+      "version": "1.18.0",
+      "label": "Map Layers 16",
+      "config": {
+        "useMapWidget": true,
+        "customizeLayerOptions": {
+          "widget_58-dataSource_5": {
+            "isEnabled": true,
+            "hiddenJimuLayerViewIds": [],
+            "showJimuLayerViewIds": [
+              "widget_58-dataSource_5-198a5bfdc5e-layer-13",
+              "widget_58-dataSource_5-198a59c6fe7-layer-11"
+            ]
+          }
+        },
+        "enableLegend": false,
+        "popup": false,
+        "information": false,
+        "useTickBoxes": true
+      },
+      "id": "widget_379",
+      "useMapWidgetIds": [
+        "widget_58"
+      ]
+    },
+    "widget_380": {
+      "uri": "widgets/common/button/",
+      "version": "1.18.0",
+      "label": "Button 23",
+      "config": {
+        "functionConfig": {
+          "text": "Home",
+          "textExpression": null,
+          "linkParam": {
+            "linkType": "VIEW",
+            "value": "page_2,view_20",
+            "openType": "_self"
+          }
+        },
+        "styleConfig": {
+          "themeStyle": {
+            "quickStyleType": "default"
+          }
+        }
+      },
+      "id": "widget_380"
+    },
+    "widget_381": {
+      "uri": "widgets/common/button/",
+      "version": "1.18.0",
+      "label": "Button 24",
+      "config": {
+        "functionConfig": {
+          "text": "Freshwater Watch",
+          "textExpression": null,
+          "linkParam": {
+            "linkType": "VIEW",
+            "value": "page_2,view_24",
+            "openType": "_self"
+          }
+        },
+        "styleConfig": {
+          "themeStyle": {
+            "quickStyleType": "primary"
+          },
+          "useCustom": false
+        }
+      },
+      "id": "widget_381"
+    },
+    "widget_382": {
+      "uri": "widgets/common/button/",
+      "version": "1.18.0",
+      "label": "Button 25",
+      "config": {
+        "functionConfig": {
+          "text": "EA Data",
+          "textExpression": null,
+          "linkParam": {
+            "linkType": "VIEW",
+            "value": "page_2,view_25",
+            "openType": "_self"
+          }
+        },
+        "styleConfig": {
+          "themeStyle": {
+            "quickStyleType": "primary"
+          },
+          "useCustom": false
+        }
+      },
+      "id": "widget_382"
+    },
+    "widget_383": {
+      "uri": "widgets/common/text/",
+      "version": "1.18.0",
+      "label": "Text 11",
+      "config": {
+        "text": "<p><strong style=\"font-size: 35px;\">﻿EA DATA</strong></p>",
+        "style": {
+          "wrap": true
+        }
+      },
+      "id": "widget_383"
+    },
+    "widget_384": {
+      "uri": "widgets/common/image/",
+      "version": "1.18.0",
+      "label": "Image 13",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "data:image/png;base64,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",
+            "originalUrl": "data:image/png;base64,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",
+            "fileName": "8FbHMgtuK9owYAAAAASUVORK5CYII=",
+            "originalName": "8FbHMgtuK9owYAAAAASUVORK5CYII=",
+            "imgSourceType": "BY_URL"
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_384"
+    },
+    "widget_385": {
+      "uri": "widgets/arcgis/map-layers/",
+      "version": "1.18.0",
+      "label": "Map Layers 17",
+      "config": {
+        "useMapWidget": true,
+        "customizeLayerOptions": {
+          "widget_58-dataSource_5": {
+            "isEnabled": true,
+            "hiddenJimuLayerViewIds": [],
+            "showJimuLayerViewIds": [
+              "widget_58-dataSource_5-198a4f9dc1f-layer-4"
+            ]
+          }
+        },
+        "useTickBoxes": true
+      },
+      "id": "widget_385",
+      "useMapWidgetIds": [
+        "widget_58"
+      ]
+    },
+    "widget_387": {
+      "uri": "widgets/layout/column/",
+      "version": "1.18.0",
+      "label": "Column 8",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "space": [
+              10
+            ],
+            "unit": "px"
+          },
+          "justifyContent": "flex-start",
+          "alignItems": "stretch"
+        }
+      },
+      "id": "widget_387",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_301"
+        }
+      }
+    },
+    "widget_388": {
+      "uri": "widgets/layout/column/",
+      "version": "1.18.0",
+      "label": "Column 9",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "space": [
+              10
+            ],
+            "unit": "px"
+          },
+          "justifyContent": "flex-start",
+          "alignItems": "stretch"
+        }
+      },
+      "id": "widget_388",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_302"
+        }
+      }
+    },
+    "widget_389": {
+      "uri": "widgets/common/text/",
+      "version": "1.18.0",
+      "label": "Text 12",
+      "config": {
+        "text": "<p><span style=\"font-size: 30px;\">Freshwater Watch</span></p>",
+        "style": {
+          "wrap": true
+        }
+      },
+      "id": "widget_389"
+    },
+    "widget_390": {
+      "uri": "widgets/common/button/",
+      "version": "1.18.0",
+      "label": "Button 26",
+      "config": {
+        "functionConfig": {
+          "text": "Home",
+          "textExpression": null,
+          "linkParam": {
+            "linkType": "VIEW",
+            "value": "page_2,view_20",
+            "openType": "_self"
+          }
+        },
+        "styleConfig": {
+          "themeStyle": {
+            "quickStyleType": "default"
+          }
+        }
+      },
+      "id": "widget_390"
+    },
+    "widget_391": {
+      "uri": "widgets/arcgis/map-layers/",
+      "version": "1.18.0",
+      "label": "Map Layers 18",
+      "config": {
+        "useMapWidget": true,
+        "customizeLayerOptions": {
+          "widget_58-dataSource_5": {
+            "isEnabled": true,
+            "showJimuLayerViewIds": [
+              "widget_58-dataSource_5-198a4f9dc1f-layer-4",
+              "widget_58-dataSource_5-1995de07e09-layer-13"
+            ],
+            "hiddenJimuLayerViewIds": []
+          }
+        },
+        "useTickBoxes": true
+      },
+      "id": "widget_391",
+      "useMapWidgetIds": [
+        "widget_58"
+      ]
+    }
+  },
+  "widgetsManifest": {},
+  "views": {
+    "view_20": {
+      "id": "view_20",
+      "label": "Home",
+      "layout": {
+        "LARGE": "layout_266"
+      }
+    },
+    "view_21": {
+      "id": "view_21",
+      "label": "Outfalls",
+      "layout": {
+        "LARGE": "layout_267"
+      }
+    },
+    "view_22": {
+      "id": "view_22",
+      "label": "Barriers",
+      "layout": {
+        "LARGE": "layout_269"
+      }
+    },
+    "view_23": {
+      "id": "view_23",
+      "label": "Spills",
+      "layout": {
+        "LARGE": "layout_297"
+      }
+    },
+    "view_24": {
+      "id": "view_24",
+      "label": "Freshwater Watch",
+      "layout": {
+        "LARGE": "layout_299"
+      },
+      "lazyLoad": false
+    },
+    "view_25": {
+      "id": "view_25",
+      "label": "EA Data",
+      "layout": {
+        "LARGE": "layout_300"
+      }
+    }
+  },
+  "sections": {
+    "section_11": {
+      "id": "section_11",
+      "label": "Section 6",
+      "views": [
+        "view_20",
+        "view_21",
+        "view_22",
+        "view_23",
+        "view_24",
+        "view_25"
+      ]
+    }
+  },
+  "dialogs": {},
+  "messageConfigs": {
+    "messageConfig_2": {
+      "id": "messageConfig_2",
+      "widgetId": "widget_168",
+      "messageType": "BUTTON_CLICK",
+      "actions": []
+    }
+  },
+  "pageStructure": [
+    {
+      "page_2": []
+    }
+  ],
+  "attributes": {
+    "portalUrl": "https://theriverstrust.maps.arcgis.com",
+    "isWebTier": false,
+    "clientId": "QqCukKbHG8MFzv3Q",
+    "express": false,
+    "title": "MTT_Exp 1",
+    "description": "",
+    "type": "Web Experience",
+    "thumbnail": null
+  },
+  "sharedThemeVariables": {
+    "header": {
+      "bg": "#002855",
+      "color": "#ffffff"
+    },
+    "body": {
+      "bg": "#ffffff",
+      "color": "#002855",
+      "link": "#008390"
+    },
+    "button": {
+      "bg": "#32f3e3",
+      "color": "#002855"
+    },
+    "logo": {
+      "small": "https://theriverstrust.maps.arcgis.com/sharing/rest/content/items/713d3a785a6741f5b07402eb87c50af2/data",
+      "link": "https://www.theriverstrust.org/"
+    }
+  },
+  "dataSources": {
+    "dataSource_5": {
+      "id": "dataSource_5",
+      "type": "WEB_MAP",
+      "sourceLabel": "Maidenhead to Teddington Data Store",
+      "itemId": "03b4ee0cadd747ed9e4eb758cc6cfd5d",
+      "portalUrl": "https://theriverstrust.maps.arcgis.com",
+      "childDataSourceJsons": {
+        "198a4fa4ad2-layer-8": {
+          "id": "dataSource_5-198a4fa4ad2-layer-8",
+          "type": "FEATURE_LAYER",
+          "sourceLabel": "edm_2020_2024",
+          "portalUrl": "https://www.arcgis.com",
+          "itemId": "aafe3d9ed70c4b0794727865d57ce8b4",
+          "layerId": "0",
+          "url": "https://services3.arcgis.com/Bb8lfThdhugyc4G3/arcgis/rest/services/edm_2020_2024/FeatureServer/0",
+          "query": {
+            "id": "default",
+            "label": "edm_2020_2024",
+            "refreshInterval": 0
+          },
+          "dataViews": {}
+        },
+        "198a59c6fe7-layer-11": {
+          "id": "dataSource_5-198a59c6fe7-layer-11",
+          "type": "FEATURE_LAYER",
+          "sourceLabel": "FreshwaterWatch_data_mtt_PO4",
+          "portalUrl": "https://www.arcgis.com",
+          "itemId": "e68745fdf2ae4ff5b4504eb036a52812",
+          "layerId": "0",
+          "url": "https://services3.arcgis.com/Bb8lfThdhugyc4G3/arcgis/rest/services/FreshwaterWatch_data_mtt/FeatureServer/0"
+        },
+        "198a5bfdc5e-layer-13": {
+          "id": "dataSource_5-198a5bfdc5e-layer-13",
+          "type": "FEATURE_LAYER",
+          "sourceLabel": "FreshwaterWatch_data_mtt_NO3",
+          "portalUrl": "https://www.arcgis.com",
+          "itemId": "e68745fdf2ae4ff5b4504eb036a52812",
+          "layerId": "0",
+          "url": "https://services3.arcgis.com/Bb8lfThdhugyc4G3/arcgis/rest/services/FreshwaterWatch_data_mtt/FeatureServer/0"
+        },
+        "198a4f9f06a-layer-7": {
+          "id": "dataSource_5-198a4f9f06a-layer-7",
+          "type": "FEATURE_LAYER",
+          "sourceLabel": "amber_barriers_mtt",
+          "portalUrl": "https://www.arcgis.com",
+          "itemId": "0eec56b1747143d8b3bda38d9f165873",
+          "layerId": "0",
+          "url": "https://services3.arcgis.com/Bb8lfThdhugyc4G3/arcgis/rest/services/amber_barriers_mtt/FeatureServer/0"
+        },
+        "198a4f9ecdf-layer-6": {
+          "id": "dataSource_5-198a4f9ecdf-layer-6",
+          "type": "FEATURE_LAYER",
+          "sourceLabel": "riverobstacles_mtt",
+          "portalUrl": "https://www.arcgis.com",
+          "itemId": "9ee1dbc547ed456687c46d6afa0ff73a",
+          "layerId": "0",
+          "url": "https://services3.arcgis.com/Bb8lfThdhugyc4G3/arcgis/rest/services/riverobstacles_mtt/FeatureServer/0"
+        },
+        "198a4f9e1dc-layer-5": {
+          "id": "dataSource_5-198a4f9e1dc-layer-5",
+          "type": "FEATURE_LAYER",
+          "sourceLabel": "FreshWaterWatch_mtt",
+          "portalUrl": "https://www.arcgis.com",
+          "itemId": "fd92d4471c2543499aa837df89aa631c",
+          "layerId": "0",
+          "url": "https://services3.arcgis.com/Bb8lfThdhugyc4G3/arcgis/rest/services/FreshWaterWatch_mtt/FeatureServer/0"
+        },
+        "198a4f9dc1f-layer-4": {
+          "id": "dataSource_5-198a4f9dc1f-layer-4",
+          "type": "FEATURE_LAYER",
+          "sourceLabel": "ea_wims_mtt",
+          "portalUrl": "https://www.arcgis.com",
+          "itemId": "956ac7fccae8485ead6ed24bf86a5ba3",
+          "layerId": "0",
+          "url": "https://services3.arcgis.com/Bb8lfThdhugyc4G3/arcgis/rest/services/ea_wims_mtt/FeatureServer/0"
+        },
+        "198a2fa4d6c-layer-12": {
+          "id": "dataSource_5-198a2fa4d6c-layer-12",
+          "type": "FEATURE_LAYER",
+          "sourceLabel": "MTTOutfallSafaris",
+          "portalUrl": "https://www.arcgis.com",
+          "itemId": "9dc89cccdbe44ae6820539eccabba6fb",
+          "layerId": "0",
+          "url": "https://services3.arcgis.com/Bb8lfThdhugyc4G3/arcgis/rest/services/MTTOutfallSafaris/FeatureServer/0"
+        },
+        "198a4fea86b-layer-9": {
+          "id": "dataSource_5-198a4fea86b-layer-9",
+          "type": "FEATURE_LAYER",
+          "sourceLabel": "WFD_River_Water_Bodies_Cycle_3",
+          "portalUrl": "https://www.arcgis.com",
+          "itemId": "222f035f77734d729b76235d201a812a",
+          "layerId": "1",
+          "url": "https://services3.arcgis.com/Bb8lfThdhugyc4G3/arcgis/rest/services/WFD_River_Water_Bodies_Cycle_3/FeatureServer/1"
+        },
+        "198a4feef61-layer-10": {
+          "id": "dataSource_5-198a4feef61-layer-10",
+          "type": "FEATURE_LAYER",
+          "sourceLabel": "London_OSmmap_MTT",
+          "portalUrl": "https://www.arcgis.com",
+          "itemId": "715515c68b5b458d8e0061ac4b4b1f86",
+          "layerId": "1",
+          "url": "https://services3.arcgis.com/Bb8lfThdhugyc4G3/arcgis/rest/services/London_OSmmap_MTT/FeatureServer/1"
+        },
+        "198a2f0f513-layer-11": {
+          "id": "dataSource_5-198a2f0f513-layer-11",
+          "type": "FEATURE_LAYER",
+          "sourceLabel": "Maidenhead to Teddington- Mask",
+          "portalUrl": "https://www.arcgis.com",
+          "itemId": "05e26cc821a0452d92b38d801ec2d421",
+          "layerId": "0",
+          "url": "https://services3.arcgis.com/Bb8lfThdhugyc4G3/arcgis/rest/services/CaBA_Catchment_Partnerships_(without_labels)/FeatureServer/0"
+        }
+      },
+      "isHidden": false
+    }
+  },
+  "utilities": {
+    "utility_1": {
+      "id": "utility_1",
+      "type": "PRINTING",
+      "name": "printTask",
+      "label": "Printing",
+      "url": "https://utility.arcgisonline.com/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task",
+      "source": "org",
+      "orgSetting": {}
+    }
+  },
+  "timestamp": 1759793927035,
+  "customTheme": {},
+  "publishTimestamp": 1759793930230
+}
