@@ -2,8 +2,13 @@
   "name": "default",
   "label": "Default",
   "type": "theme",
-  "version": "1.19.0",
-  "exbVersion": "1.19.0",
+  "font": {
+    "fontFamily": "Avenir Next",
+    "fontWeight": 500,
+    "color": "#fff"
+  },
+  "version": "1.18.0",
+  "exbVersion": "1.18.0",
   "author": "Esri R&D Center Beijing",
   "description": "This is the default theme. This theme is a placeholder, all info about this theme is in jimu so we never load this theme",
   "copyright": "",
@@ -52,6 +57,6 @@
   ],
   "styleFiles": {
     "css": false,
-    "js": true
+    "js": false
   }
 }

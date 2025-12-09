@@ -608,10 +608,10 @@
           "bbox": {
             "left": "0.0%",
             "right": "0.0%",
-            "top": "0.0%",
-            "bottom": "6.9%",
+            "top": "-0.0%",
+            "bottom": "7.0%",
             "width": "100.0%",
-            "height": "93.1%"
+            "height": "93.0%"
           },
           "setting": {
             "autoProps": {
@@ -652,28 +652,6 @@
     },
     "layout_298": {
       "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_373",
-          "bbox": {
-            "width": "332px",
-            "height": 51
-          }
-        },
-        "1": {
-          "type": "WIDGET",
-          "widgetId": "widget_374",
-          "bbox": {
-            "width": "332px",
-            "height": "104px"
-          },
-          "setting": {
-            "autoProps": {
-              "width": "CUSTOM",
-              "height": "AUTO"
-            }
-          }
-        },
         "2": {
           "type": "WIDGET",
           "widgetId": "widget_376",
@@ -681,14 +659,49 @@
             "width": "332px",
             "height": 154
           }
+        },
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_392",
+          "bbox": {
+            "width": "332px",
+            "height": "70px"
+          }
+        },
+        "4": {
+          "type": "WIDGET",
+          "bbox": {
+            "width": "332px",
+            "height": "54px"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "AUTO"
+            }
+          }
+        },
+        "7": {
+          "type": "WIDGET",
+          "widgetId": "widget_398",
+          "bbox": {
+            "width": "100.1414%",
+            "height": 218
+          },
+          "setting": {
+            "autoProps": {
+              "width": "CUSTOM",
+              "height": "AUTO"
+            }
+          }
         }
       },
       "type": "COLUMN",
       "label": "Default",
       "order": [
         "2",
-        "0",
-        "1"
+        "3",
+        "4",
+        "7"
       ]
     },
     "layout_299": {
@@ -905,14 +918,14 @@
         "initialMapState": {
           "viewPoint": {
             "rotation": 0,
-            "scale": 577790.554289,
+            "scale": 288895.277144,
             "targetGeometry": {
               "spatialReference": {
                 "latestWkid": 3857,
                 "wkid": 102100
               },
-              "x": -67243.72834152482,
-              "y": 6710251.429313765
+              "x": -60150.04961984096,
+              "y": 6702865.785957757
             }
           },
           "extent": {
@@ -920,17 +933,15 @@
               "latestWkid": 3857,
               "wkid": 102100
             },
-            "xmin": -115781.24130263034,
-            "ymin": 6669281.182152894,
-            "xmax": -18706.215380419315,
-            "ymax": 6751221.6764746355
+            "xmin": -84839.20975591961,
+            "ymin": 6682036.695750074,
+            "xmax": -35460.88948376231,
+            "ymax": 6723694.87616544
           },
           "rotation": 0,
           "viewType": "2d"
         },
-        "scaleRange": {
-          "minScale": 430107.142472
-        },
+        "scaleRange": null,
         "layoutIndex": 0,
         "showPopupUponSelection": false,
         "clientQueryDataSourceIds": []
@@ -949,6 +960,7 @@
           "mainDataSourceId": "dataSource_5"
         }
       ],
+      "showAllDataCount": false,
       "dataActions": {
         "showOnMap": {
           "config": {
@@ -1014,15 +1026,8 @@
               }
             }
           }
-        },
-        "showPopup": {
-          "enabled": false
-        },
-        "zoomToFeature": {
-          "enabled": false
         }
-      },
-      "showAllDataCount": false
+      }
     },
     "widget_71": {
       "uri": "widgets/layout/fixed/",
@@ -1520,351 +1525,6 @@
         }
       }
     },
-    "widget_373": {
-      "uri": "widgets/arcgis/map-layers/",
-      "version": "1.18.0",
-      "label": "Map Layers 15",
-      "config": {
-        "useMapWidget": true,
-        "customizeLayerOptions": {
-          "widget_58-dataSource_5": {
-            "isEnabled": true,
-            "hiddenJimuLayerViewIds": [],
-            "showJimuLayerViewIds": [
-              "widget_58-dataSource_5-198a4fa4ad2-layer-8"
-            ]
-          }
-        },
-        "popup": false,
-        "useTickBoxes": true,
-        "enableLegend": false,
-        "information": true
-      },
-      "id": "widget_373",
-      "useMapWidgetIds": [
-        "widget_58"
-      ],
-      "style": {
-        "borderRadius": null,
-        "border": {
-          "color": null,
-          "type": "solid",
-          "width": "2px"
-        }
-      }
-    },
-    "widget_374": {
-      "uri": "widgets/common/filter/",
-      "version": "1.18.0",
-      "label": "edm filter",
-      "config": {
-        "logicalOperator": "OR",
-        "filterItems": [
-          {
-            "type": "SINGLE",
-            "name": "2024",
-            "useDataSources": [
-              {
-                "dataSourceId": "dataSource_5-198a4fa4ad2-layer-8",
-                "mainDataSourceId": "dataSource_5-198a4fa4ad2-layer-8",
-                "rootDataSourceId": "dataSource_5",
-                "fields": [
-                  "Year"
-                ]
-              }
-            ],
-            "icon": {
-              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M15 1.53V0H1v1.53h.07l5.374 5.288v6.121l2.26 2.224a.5.5 0 0 0 .852-.356V6.825l5.382-5.295zM2 1h12v.049L8.556 6.406l-.001 7.207-1.111-1.093V6.399L2 1.042z\" clip-rule=\"evenodd\"></path></svg>",
-              "properties": {
-                "color": "",
-                "filename": "Filter",
-                "originalName": "filter.svg",
-                "inlineSvg": true,
-                "size": 14
-              }
-            },
-            "sqlExprObj": {
-              "logicalOperator": "AND",
-              "parts": [
-                {
-                  "type": "SINGLE",
-                  "jimuFieldName": "Year",
-                  "operator": "DATE_ONLY_OPERATOR_IS_BETWEEN",
-                  "valueOptions": {
-                    "isValid": true,
-                    "sourceType": "USER_INPUT",
-                    "inputEditor": "DOUBLE_DATE_ONLY_PICKER",
-                    "value": [
-                      {
-                        "value": "2024-01-01",
-                        "label": "1/01/2024"
-                      },
-                      {
-                        "value": "2024-12-31",
-                        "label": "31/12/2024"
-                      }
-                    ]
-                  },
-                  "displayType": "NONE",
-                  "askForValueOptions": null,
-                  "displayLabel": null,
-                  "caseSensitive": false
-                }
-              ],
-              "sql": "Year BETWEEN DATE '2024-01-01' AND DATE '2024-12-31'",
-              "displaySQL": "(Year is between 1/01/2024 and 31/12/2024)"
-            },
-            "autoApplyWhenWidgetOpen": true,
-            "collapseFilterExprs": false
-          },
-          {
-            "type": "SINGLE",
-            "name": "2023",
-            "useDataSources": [
-              {
-                "dataSourceId": "dataSource_5-198a4fa4ad2-layer-8",
-                "mainDataSourceId": "dataSource_5-198a4fa4ad2-layer-8",
-                "rootDataSourceId": "dataSource_5",
-                "fields": [
-                  "Year"
-                ]
-              }
-            ],
-            "icon": {
-              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M15 1.53V0H1v1.53h.07l5.374 5.288v6.121l2.26 2.224a.5.5 0 0 0 .852-.356V6.825l5.382-5.295zM2 1h12v.049L8.556 6.406l-.001 7.207-1.111-1.093V6.399L2 1.042z\" clip-rule=\"evenodd\"></path></svg>",
-              "properties": {
-                "color": "",
-                "filename": "Filter",
-                "originalName": "filter.svg",
-                "inlineSvg": true,
-                "size": 14
-              }
-            },
-            "sqlExprObj": {
-              "logicalOperator": "OR",
-              "parts": [
-                {
-                  "type": "SINGLE",
-                  "jimuFieldName": "Year",
-                  "operator": "DATE_ONLY_OPERATOR_IS_BETWEEN",
-                  "valueOptions": {
-                    "isValid": true,
-                    "sourceType": "USER_INPUT",
-                    "inputEditor": "DOUBLE_DATE_ONLY_PICKER",
-                    "value": [
-                      {
-                        "value": "2021-01-01",
-                        "label": "1/01/2021"
-                      },
-                      {
-                        "value": "2021-12-01",
-                        "label": "1/12/2021"
-                      }
-                    ]
-                  },
-                  "displayType": "NONE",
-                  "askForValueOptions": null,
-                  "displayLabel": null,
-                  "caseSensitive": false
-                }
-              ],
-              "sql": "Year BETWEEN DATE '2021-01-01' AND DATE '2021-12-01'",
-              "displaySQL": "(Year is between 1/01/2021 and 1/12/2021)"
-            },
-            "autoApplyWhenWidgetOpen": true,
-            "collapseFilterExprs": false
-          },
-          {
-            "type": "SINGLE",
-            "name": "2022",
-            "useDataSources": [
-              {
-                "dataSourceId": "dataSource_5-198a4fa4ad2-layer-8",
-                "mainDataSourceId": "dataSource_5-198a4fa4ad2-layer-8",
-                "rootDataSourceId": "dataSource_5",
-                "fields": [
-                  "Year"
-                ]
-              }
-            ],
-            "icon": {
-              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M15 1.53V0H1v1.53h.07l5.374 5.288v6.121l2.26 2.224a.5.5 0 0 0 .852-.356V6.825l5.382-5.295zM2 1h12v.049L8.556 6.406l-.001 7.207-1.111-1.093V6.399L2 1.042z\" clip-rule=\"evenodd\"></path></svg>",
-              "properties": {
-                "color": "",
-                "filename": "Filter",
-                "originalName": "filter.svg",
-                "inlineSvg": true,
-                "size": 14
-              }
-            },
-            "sqlExprObj": {
-              "logicalOperator": "AND",
-              "parts": [
-                {
-                  "type": "SINGLE",
-                  "jimuFieldName": "Year",
-                  "operator": "DATE_ONLY_OPERATOR_IS_BETWEEN",
-                  "valueOptions": {
-                    "isValid": true,
-                    "sourceType": "USER_INPUT",
-                    "inputEditor": "DOUBLE_DATE_ONLY_PICKER",
-                    "value": [
-                      {
-                        "value": "2022-01-01",
-                        "label": "1/01/2022"
-                      },
-                      {
-                        "value": "2022-12-19",
-                        "label": "19/12/2022"
-                      }
-                    ]
-                  },
-                  "displayType": "NONE",
-                  "askForValueOptions": null,
-                  "displayLabel": null,
-                  "caseSensitive": false
-                }
-              ],
-              "sql": "Year BETWEEN DATE '2022-01-01' AND DATE '2022-12-19'",
-              "displaySQL": "(Year is between 1/01/2022 and 19/12/2022)"
-            },
-            "autoApplyWhenWidgetOpen": true,
-            "collapseFilterExprs": false
-          },
-          {
-            "type": "SINGLE",
-            "name": "2021",
-            "useDataSources": [
-              {
-                "dataSourceId": "dataSource_5-198a4fa4ad2-layer-8",
-                "mainDataSourceId": "dataSource_5-198a4fa4ad2-layer-8",
-                "rootDataSourceId": "dataSource_5",
-                "fields": [
-                  "Year"
-                ]
-              }
-            ],
-            "icon": {
-              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M15 1.53V0H1v1.53h.07l5.374 5.288v6.121l2.26 2.224a.5.5 0 0 0 .852-.356V6.825l5.382-5.295zM2 1h12v.049L8.556 6.406l-.001 7.207-1.111-1.093V6.399L2 1.042z\" clip-rule=\"evenodd\"></path></svg>",
-              "properties": {
-                "color": "",
-                "filename": "Filter",
-                "originalName": "filter.svg",
-                "inlineSvg": true,
-                "size": 14
-              }
-            },
-            "sqlExprObj": {
-              "logicalOperator": "AND",
-              "parts": [
-                {
-                  "type": "SINGLE",
-                  "jimuFieldName": "Year",
-                  "operator": "DATE_ONLY_OPERATOR_IS_BETWEEN",
-                  "valueOptions": {
-                    "isValid": true,
-                    "sourceType": "USER_INPUT",
-                    "inputEditor": "DOUBLE_DATE_ONLY_PICKER",
-                    "value": [
-                      {
-                        "value": "2021-01-01",
-                        "label": "1/01/2021"
-                      },
-                      {
-                        "value": "2021-12-31",
-                        "label": "31/12/2021"
-                      }
-                    ]
-                  },
-                  "displayType": "NONE",
-                  "askForValueOptions": null,
-                  "displayLabel": null,
-                  "caseSensitive": false
-                }
-              ],
-              "sql": "Year BETWEEN DATE '2021-01-01' AND DATE '2021-12-31'",
-              "displaySQL": "(Year is between 1/01/2021 and 31/12/2021)"
-            },
-            "autoApplyWhenWidgetOpen": true,
-            "collapseFilterExprs": false
-          },
-          {
-            "type": "SINGLE",
-            "name": "2020",
-            "useDataSources": [
-              {
-                "dataSourceId": "dataSource_5-198a4fa4ad2-layer-8",
-                "mainDataSourceId": "dataSource_5-198a4fa4ad2-layer-8",
-                "rootDataSourceId": "dataSource_5",
-                "fields": [
-                  "Year"
-                ]
-              }
-            ],
-            "icon": {
-              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M15 1.53V0H1v1.53h.07l5.374 5.288v6.121l2.26 2.224a.5.5 0 0 0 .852-.356V6.825l5.382-5.295zM2 1h12v.049L8.556 6.406l-.001 7.207-1.111-1.093V6.399L2 1.042z\" clip-rule=\"evenodd\"></path></svg>",
-              "properties": {
-                "color": "",
-                "filename": "Filter",
-                "originalName": "filter.svg",
-                "inlineSvg": true,
-                "size": 14
-              }
-            },
-            "sqlExprObj": {
-              "logicalOperator": "AND",
-              "parts": [
-                {
-                  "type": "SINGLE",
-                  "jimuFieldName": "Year",
-                  "operator": "DATE_ONLY_OPERATOR_IS_BETWEEN",
-                  "valueOptions": {
-                    "isValid": true,
-                    "sourceType": "USER_INPUT",
-                    "inputEditor": "DOUBLE_DATE_ONLY_PICKER",
-                    "value": [
-                      {
-                        "value": "2020-01-01",
-                        "label": "1/01/2020"
-                      },
-                      {
-                        "value": "2020-12-31",
-                        "label": "31/12/2020"
-                      }
-                    ]
-                  },
-                  "displayType": "NONE",
-                  "askForValueOptions": null,
-                  "displayLabel": null,
-                  "caseSensitive": false
-                }
-              ],
-              "sql": "Year BETWEEN DATE '2020-01-01' AND DATE '2020-12-31'",
-              "displaySQL": "(Year is between 1/01/2020 and 31/12/2020)"
-            },
-            "autoApplyWhenWidgetOpen": true,
-            "collapseFilterExprs": false
-          }
-        ],
-        "arrangeType": "INLINE",
-        "triggerType": "TOGGLE",
-        "omitInternalStyle": false,
-        "resetAll": false,
-        "turnOffAll": false,
-        "wrap": true
-      },
-      "id": "widget_374",
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_5-198a4fa4ad2-layer-8",
-          "mainDataSourceId": "dataSource_5-198a4fa4ad2-layer-8",
-          "rootDataSourceId": "dataSource_5",
-          "fields": [
-            "Year"
-          ]
-        }
-      ]
-    },
     "widget_375": {
       "uri": "widgets/common/button/",
       "version": "1.18.0",
@@ -2219,6 +1879,332 @@
       "useMapWidgetIds": [
         "widget_58"
       ]
+    },
+    "widget_392": {
+      "uri": "widgets/arcgis/map-layers/",
+      "version": "1.18.0",
+      "label": "Map Layers 19",
+      "config": {
+        "useMapWidget": true,
+        "customizeLayerOptions": {
+          "widget_58-dataSource_5": {
+            "isEnabled": true,
+            "hiddenJimuLayerViewIds": [],
+            "showJimuLayerViewIds": [
+              "widget_58-dataSource_5-19affe479fb-layer-18"
+            ]
+          }
+        },
+        "expandAllLayers": false,
+        "popup": false,
+        "label": true,
+        "enableLegend": false,
+        "reorderLayers": false,
+        "visibilityRange": false,
+        "opacity": false,
+        "useTickBoxes": true,
+        "information": true
+      },
+      "id": "widget_392",
+      "useMapWidgetIds": [
+        "widget_58"
+      ],
+      "dataActions": {
+        "setFilter": {
+          "enabled": true
+        }
+      }
+    },
+    "widget_398": {
+      "uri": "widgets/common/filter/",
+      "version": "1.18.0",
+      "label": "Filter",
+      "config": {
+        "logicalOperator": "OR",
+        "filterItems": [
+          {
+            "type": "SINGLE",
+            "name": "2020",
+            "useDataSources": [
+              {
+                "dataSourceId": "dataSource_5-19affe479fb-layer-18",
+                "mainDataSourceId": "dataSource_5-19affe479fb-layer-18",
+                "rootDataSourceId": "dataSource_5",
+                "fields": [
+                  "FIELD_NAME_B"
+                ]
+              }
+            ],
+            "icon": {
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M15 1.53V0H1v1.53h.07l5.374 5.288v6.121l2.26 2.224a.5.5 0 0 0 .852-.356V6.825l5.382-5.295zM2 1h12v.049L8.556 6.406l-.001 7.207-1.111-1.093V6.399L2 1.042z\" clip-rule=\"evenodd\"></path></svg>",
+              "properties": {
+                "color": "",
+                "filename": "Filter",
+                "originalName": "filter.svg",
+                "inlineSvg": true,
+                "size": 14
+              }
+            },
+            "sqlExprObj": {
+              "logicalOperator": "AND",
+              "parts": [
+                {
+                  "type": "SINGLE",
+                  "jimuFieldName": "FIELD_NAME_B",
+                  "operator": "DATE_ONLY_OPERATOR_IS_ON",
+                  "valueOptions": {
+                    "isValid": true,
+                    "sourceType": "USER_INPUT",
+                    "inputEditor": "DATE_ONLY_PICKER",
+                    "value": [
+                      {
+                        "value": "2020-01-01",
+                        "label": "1/01/2020"
+                      }
+                    ]
+                  },
+                  "displayType": "NONE",
+                  "askForValueOptions": null,
+                  "displayLabel": null,
+                  "caseSensitive": false
+                }
+              ],
+              "sql": "FIELD_NAME_B = DATE '2020-01-01'",
+              "displaySQL": "(Year is on 1/01/2020)"
+            },
+            "autoApplyWhenWidgetOpen": true,
+            "collapseFilterExprs": false
+          },
+          {
+            "type": "SINGLE",
+            "name": "2021",
+            "useDataSources": [
+              {
+                "dataSourceId": "dataSource_5-19affe479fb-layer-18",
+                "mainDataSourceId": "dataSource_5-19affe479fb-layer-18",
+                "rootDataSourceId": "dataSource_5",
+                "fields": [
+                  "FIELD_NAME_B"
+                ]
+              }
+            ],
+            "icon": {
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M15 1.53V0H1v1.53h.07l5.374 5.288v6.121l2.26 2.224a.5.5 0 0 0 .852-.356V6.825l5.382-5.295zM2 1h12v.049L8.556 6.406l-.001 7.207-1.111-1.093V6.399L2 1.042z\" clip-rule=\"evenodd\"></path></svg>",
+              "properties": {
+                "color": "",
+                "filename": "Filter",
+                "originalName": "filter.svg",
+                "inlineSvg": true,
+                "size": 14
+              }
+            },
+            "sqlExprObj": {
+              "logicalOperator": "AND",
+              "parts": [
+                {
+                  "type": "SINGLE",
+                  "jimuFieldName": "FIELD_NAME_B",
+                  "operator": "DATE_ONLY_OPERATOR_IS_ON",
+                  "valueOptions": {
+                    "isValid": true,
+                    "sourceType": "USER_INPUT",
+                    "inputEditor": "DATE_ONLY_PICKER",
+                    "value": [
+                      {
+                        "value": "2021-12-01",
+                        "label": "1/12/2021"
+                      }
+                    ]
+                  },
+                  "displayType": "NONE",
+                  "askForValueOptions": null,
+                  "displayLabel": null,
+                  "caseSensitive": false
+                }
+              ],
+              "sql": "FIELD_NAME_B = DATE '2021-12-01'",
+              "displaySQL": "(Year is on 1/12/2021)"
+            },
+            "autoApplyWhenWidgetOpen": false,
+            "collapseFilterExprs": false
+          },
+          {
+            "type": "SINGLE",
+            "name": "2022",
+            "useDataSources": [
+              {
+                "dataSourceId": "dataSource_5-19affe479fb-layer-18",
+                "mainDataSourceId": "dataSource_5-19affe479fb-layer-18",
+                "rootDataSourceId": "dataSource_5",
+                "fields": [
+                  "FIELD_NAME_B"
+                ]
+              }
+            ],
+            "icon": {
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M15 1.53V0H1v1.53h.07l5.374 5.288v6.121l2.26 2.224a.5.5 0 0 0 .852-.356V6.825l5.382-5.295zM2 1h12v.049L8.556 6.406l-.001 7.207-1.111-1.093V6.399L2 1.042z\" clip-rule=\"evenodd\"></path></svg>",
+              "properties": {
+                "color": "",
+                "filename": "Filter",
+                "originalName": "filter.svg",
+                "inlineSvg": true,
+                "size": 14
+              }
+            },
+            "sqlExprObj": {
+              "logicalOperator": "AND",
+              "parts": [
+                {
+                  "type": "SINGLE",
+                  "jimuFieldName": "FIELD_NAME_B",
+                  "operator": "DATE_ONLY_OPERATOR_IS_ON",
+                  "valueOptions": {
+                    "isValid": true,
+                    "sourceType": "USER_INPUT",
+                    "inputEditor": "DATE_ONLY_PICKER",
+                    "value": [
+                      {
+                        "value": "2022-01-01",
+                        "label": "1/01/2022"
+                      }
+                    ]
+                  },
+                  "displayType": "NONE",
+                  "askForValueOptions": null,
+                  "displayLabel": null,
+                  "caseSensitive": false
+                }
+              ],
+              "sql": "FIELD_NAME_B = DATE '2022-01-01'",
+              "displaySQL": "(Year is on 1/01/2022)"
+            },
+            "autoApplyWhenWidgetOpen": false,
+            "collapseFilterExprs": false
+          },
+          {
+            "type": "SINGLE",
+            "name": "2023",
+            "useDataSources": [
+              {
+                "dataSourceId": "dataSource_5-19affe479fb-layer-18",
+                "mainDataSourceId": "dataSource_5-19affe479fb-layer-18",
+                "rootDataSourceId": "dataSource_5",
+                "fields": [
+                  "FIELD_NAME_B"
+                ]
+              }
+            ],
+            "icon": {
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M15 1.53V0H1v1.53h.07l5.374 5.288v6.121l2.26 2.224a.5.5 0 0 0 .852-.356V6.825l5.382-5.295zM2 1h12v.049L8.556 6.406l-.001 7.207-1.111-1.093V6.399L2 1.042z\" clip-rule=\"evenodd\"></path></svg>",
+              "properties": {
+                "color": "",
+                "filename": "Filter",
+                "originalName": "filter.svg",
+                "inlineSvg": true,
+                "size": 14
+              }
+            },
+            "sqlExprObj": {
+              "logicalOperator": "AND",
+              "parts": [
+                {
+                  "type": "SINGLE",
+                  "jimuFieldName": "FIELD_NAME_B",
+                  "operator": "DATE_ONLY_OPERATOR_IS_ON",
+                  "valueOptions": {
+                    "isValid": true,
+                    "sourceType": "USER_INPUT",
+                    "inputEditor": "DATE_ONLY_PICKER",
+                    "value": [
+                      {
+                        "value": "2023-01-01",
+                        "label": "1/01/2023"
+                      }
+                    ]
+                  },
+                  "displayType": "NONE",
+                  "askForValueOptions": null,
+                  "displayLabel": null,
+                  "caseSensitive": false
+                }
+              ],
+              "sql": "FIELD_NAME_B = DATE '2023-01-01'",
+              "displaySQL": "(Year is on 1/01/2023)"
+            },
+            "autoApplyWhenWidgetOpen": false,
+            "collapseFilterExprs": false
+          },
+          {
+            "type": "SINGLE",
+            "name": "2024",
+            "useDataSources": [
+              {
+                "dataSourceId": "dataSource_5-19affe479fb-layer-18",
+                "mainDataSourceId": "dataSource_5-19affe479fb-layer-18",
+                "rootDataSourceId": "dataSource_5",
+                "fields": [
+                  "FIELD_NAME_B"
+                ]
+              }
+            ],
+            "icon": {
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M15 1.53V0H1v1.53h.07l5.374 5.288v6.121l2.26 2.224a.5.5 0 0 0 .852-.356V6.825l5.382-5.295zM2 1h12v.049L8.556 6.406l-.001 7.207-1.111-1.093V6.399L2 1.042z\" clip-rule=\"evenodd\"></path></svg>",
+              "properties": {
+                "color": "",
+                "filename": "Filter",
+                "originalName": "filter.svg",
+                "inlineSvg": true,
+                "size": 14
+              }
+            },
+            "sqlExprObj": {
+              "logicalOperator": "AND",
+              "parts": [
+                {
+                  "type": "SINGLE",
+                  "jimuFieldName": "FIELD_NAME_B",
+                  "operator": "DATE_ONLY_OPERATOR_IS_ON",
+                  "valueOptions": {
+                    "isValid": true,
+                    "sourceType": "USER_INPUT",
+                    "inputEditor": "DATE_ONLY_PICKER",
+                    "value": [
+                      {
+                        "value": "2024-01-09",
+                        "label": "9/01/2024"
+                      }
+                    ]
+                  },
+                  "displayType": "NONE",
+                  "askForValueOptions": null,
+                  "displayLabel": null,
+                  "caseSensitive": false
+                }
+              ],
+              "sql": "FIELD_NAME_B = DATE '2024-01-09'",
+              "displaySQL": "(Year is on 9/01/2024)"
+            },
+            "autoApplyWhenWidgetOpen": false,
+            "collapseFilterExprs": false
+          }
+        ],
+        "arrangeType": "BLOCK",
+        "triggerType": "TOGGLE",
+        "omitInternalStyle": false,
+        "resetAll": false,
+        "turnOffAll": false
+      },
+      "id": "widget_398",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_5-19affe479fb-layer-18",
+          "mainDataSourceId": "dataSource_5-19affe479fb-layer-18",
+          "rootDataSourceId": "dataSource_5",
+          "fields": [
+            "FIELD_NAME_B"
+          ]
+        }
+      ]
     }
   },
   "widgetsManifest": {},
@@ -2376,15 +2362,6 @@
           "layerId": "0",
           "url": "https://services3.arcgis.com/Bb8lfThdhugyc4G3/arcgis/rest/services/riverobstacles_mtt/FeatureServer/0"
         },
-        "198a4f9e1dc-layer-5": {
-          "id": "dataSource_5-198a4f9e1dc-layer-5",
-          "type": "FEATURE_LAYER",
-          "sourceLabel": "FreshWaterWatch_mtt",
-          "portalUrl": "https://www.arcgis.com",
-          "itemId": "fd92d4471c2543499aa837df89aa631c",
-          "layerId": "0",
-          "url": "https://services3.arcgis.com/Bb8lfThdhugyc4G3/arcgis/rest/services/FreshWaterWatch_mtt/FeatureServer/0"
-        },
         "198a4f9dc1f-layer-4": {
           "id": "dataSource_5-198a4f9dc1f-layer-4",
           "type": "FEATURE_LAYER",
@@ -2429,6 +2406,77 @@
           "itemId": "05e26cc821a0452d92b38d801ec2d421",
           "layerId": "0",
           "url": "https://services3.arcgis.com/Bb8lfThdhugyc4G3/arcgis/rest/services/CaBA_Catchment_Partnerships_(without_labels)/FeatureServer/0"
+        },
+        "19affe479fb-layer-18": {
+          "id": "dataSource_5-19affe479fb-layer-18",
+          "type": "FEATURE_LAYER",
+          "sourceLabel": "edm_2020_2024",
+          "portalUrl": "https://www.arcgis.com",
+          "itemId": "96c420bdef224a26a7e622308d1355c5",
+          "layerId": "0",
+          "url": "https://services3.arcgis.com/Bb8lfThdhugyc4G3/arcgis/rest/services/edm_2020_2024_eXUfLc/FeatureServer/0",
+          "dataViews": {
+            "no_selection": {
+              "id": "no_selection",
+              "label": "View for empty selection"
+            }
+          },
+          "query": {
+            "id": "default",
+            "label": "edm_2020_2024",
+            "where": {
+              "logicalOperator": "AND",
+              "parts": [],
+              "sql": "",
+              "displaySQL": ""
+            },
+            "refreshInterval": 600
+          }
+        },
+        "19afe9a828c-layer-28": {
+          "id": "dataSource_5-19afe9a828c-layer-28",
+          "type": "FEATURE_LAYER",
+          "sourceLabel": "Riverfly_Areas_Maidenhead-Teddington",
+          "portalUrl": "https://www.arcgis.com",
+          "itemId": "89b5372a156d4a0d8cbbf5fcdbbee79b",
+          "layerId": "0",
+          "url": "https://services3.arcgis.com/Bb8lfThdhugyc4G3/arcgis/rest/services/Riverfly_Areas_Maidenhead/FeatureServer/0"
+        },
+        "19ae96a2e0c-layer-31": {
+          "id": "dataSource_5-19ae96a2e0c-layer-31",
+          "type": "FEATURE_LAYER",
+          "sourceLabel": "MTT_Riverfly_Points",
+          "portalUrl": "https://www.arcgis.com",
+          "itemId": "35394cf9027244ea896489546c07387d",
+          "layerId": "0",
+          "url": "https://services3.arcgis.com/Bb8lfThdhugyc4G3/arcgis/rest/services/MTT_Riverfly_Points_PEmdqn/FeatureServer/0"
+        },
+        "19a9f134c09-layer-27": {
+          "id": "dataSource_5-19a9f134c09-layer-27",
+          "type": "FEATURE_LAYER",
+          "sourceLabel": "invertebrates_metrics_counts",
+          "portalUrl": "https://www.arcgis.com",
+          "itemId": "82cf8901d1784f0f91a8c59e03e017ec",
+          "layerId": "0",
+          "url": "https://services3.arcgis.com/Bb8lfThdhugyc4G3/arcgis/rest/services/invertebrates_metrics_counts/FeatureServer/0"
+        },
+        "19a9e7b433d-layer-18": {
+          "id": "dataSource_5-19a9e7b433d-layer-18",
+          "type": "FEATURE_LAYER",
+          "sourceLabel": "cat_1_2_NIRS_mtt",
+          "portalUrl": "https://www.arcgis.com",
+          "itemId": "3aa89d02c13b4a7189def4d19140bdf6",
+          "layerId": "0",
+          "url": "https://services3.arcgis.com/Bb8lfThdhugyc4G3/arcgis/rest/services/cat_1_2_NIRS_mtt/FeatureServer/0"
+        },
+        "19a9e6f92e4-layer-15": {
+          "id": "dataSource_5-19a9e6f92e4-layer-15",
+          "type": "FEATURE_LAYER",
+          "sourceLabel": "Maidenhead_to Teddington_Riverfly_Sites",
+          "portalUrl": "https://www.arcgis.com",
+          "itemId": "4ff39208872f42d482fdb164b494a795",
+          "layerId": "0",
+          "url": "https://services3.arcgis.com/Bb8lfThdhugyc4G3/arcgis/rest/services/Maidenhead_to_Teddington_Riverfly_Sites/FeatureServer/0"
         }
       },
       "isHidden": false
@@ -2445,6 +2493,6 @@
       "orgSetting": {}
     }
   },
-  "timestamp": 1759793927035,
+  "timestamp": 1765239594106,
   "customTheme": {}
 }

@@ -4,6 +4,7 @@ export default {
   staticSource: 'Static',
   dynamicSource: 'Dynamic',
   imageSet: 'Select an image',
+  toolTip: 'Tooltip',
   imageSetLink: 'Set link',
   imageShape: 'Shape',
   imagePosition: 'Position',

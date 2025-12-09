@@ -23,7 +23,7 @@
         "0": {
           "type": "WIDGET",
           "bbox": {
-            "left": "-0.0%",
+            "left": "0.0%",
             "right": "25.9%",
             "top": "0.0%",
             "bottom": "0.0%",
@@ -350,7 +350,15 @@
           "type": "WIDGET",
           "widgetId": "widget_382",
           "bbox": {
-            "width": "332px",
+            "width": "255px",
+            "height": "50px"
+          }
+        },
+        "8": {
+          "type": "WIDGET",
+          "widgetId": "widget_392",
+          "bbox": {
+            "width": "255px",
             "height": "50px"
           }
         }
@@ -364,7 +372,8 @@
         "2",
         "5",
         "6",
-        "7"
+        "7",
+        "8"
       ]
     },
     "layout_266": {
@@ -664,8 +673,8 @@
           "type": "WIDGET",
           "widgetId": "widget_374",
           "bbox": {
-            "width": "332px",
-            "height": "104px"
+            "width": "261px",
+            "height": 156
           },
           "setting": {
             "autoProps": {
@@ -764,7 +773,9 @@
               "right": false,
               "top": false,
               "bottom": true
-            }
+            },
+            "vCenter": false,
+            "hCenter": false
           }
         },
         "1": {
@@ -828,6 +839,14 @@
             "width": "332px",
             "height": "52px"
           }
+        },
+        "4": {
+          "type": "WIDGET",
+          "widgetId": "widget_411",
+          "bbox": {
+            "width": "332px",
+            "height": "52px"
+          }
         }
       },
       "type": "COLUMN",
@@ -836,7 +855,8 @@
         "0",
         "1",
         "2",
-        "3"
+        "3",
+        "4"
       ]
     },
     "layout_302": {
@@ -873,9 +893,95 @@
         "0",
         "1"
       ]
+    },
+    "layout_306": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_405",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "7.9%",
+            "width": "100.0%",
+            "height": "92.1%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_413",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "92.0%",
+            "bottom": "1.7%",
+            "width": "100.0%",
+            "height": "6.2%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            }
+          }
+        }
+      },
+      "order": [
+        "0",
+        "1"
+      ]
+    },
+    "layout_307": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_406",
+          "bbox": {
+            "width": "332px",
+            "height": "70px"
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_408",
+          "bbox": {
+            "width": "312px",
+            "height": 51
+          }
+        },
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_412",
+          "bbox": {
+            "width": "312px",
+            "height": 44
+          }
+        }
+      },
+      "type": "COLUMN",
+      "label": "Default",
+      "order": [
+        "0",
+        "2",
+        "3"
+      ]
     }
   },
-  "exbVersion": "1.18.0",
+  "exbVersion": "1.19.0",
   "mainSizeMode": "LARGE",
   "theme": "themes/default/",
   "forBuilderAttributes": {
@@ -885,7 +991,7 @@
   "widgets": {
     "widget_58": {
       "uri": "widgets/arcgis/arcgis-map/",
-      "version": "1.18.0",
+      "version": "1.19.0",
       "label": "Map ",
       "config": {
         "toolConfig": {
@@ -900,40 +1006,14 @@
           "canExtentNavigate": false,
           "canLocate": false
         },
-        "isUseCustomMapState": true,
+        "isUseCustomMapState": false,
         "initialMapDataSourceID": "dataSource_5",
-        "initialMapState": {
-          "viewPoint": {
-            "rotation": 0,
-            "scale": 577790.554289,
-            "targetGeometry": {
-              "spatialReference": {
-                "latestWkid": 3857,
-                "wkid": 102100
-              },
-              "x": -67243.72834152482,
-              "y": 6710251.429313765
-            }
-          },
-          "extent": {
-            "spatialReference": {
-              "latestWkid": 3857,
-              "wkid": 102100
-            },
-            "xmin": -115781.24130263034,
-            "ymin": 6669281.182152894,
-            "xmax": -18706.215380419315,
-            "ymax": 6751221.6764746355
-          },
-          "rotation": 0,
-          "viewType": "2d"
-        },
-        "scaleRange": {
-          "minScale": 430107.142472
-        },
+        "initialMapState": null,
+        "scaleRange": null,
         "layoutIndex": 0,
         "showPopupUponSelection": false,
-        "clientQueryDataSourceIds": []
+        "clientQueryDataSourceIds": [],
+        "customLODs": null
       },
       "id": "widget_58",
       "layouts": {
@@ -1050,7 +1130,7 @@
     },
     "widget_168": {
       "uri": "widgets/common/button/",
-      "version": "1.18.0",
+      "version": "1.19.0",
       "label": "Button 7",
       "config": {
         "functionConfig": {
@@ -1087,7 +1167,7 @@
     },
     "widget_221": {
       "uri": "widgets/common/text/",
-      "version": "1.18.0",
+      "version": "1.19.0",
       "label": "Text 3",
       "config": {
         "text": "<p><strong style=\"font-size: 25px;\">﻿Maidenhead to Teddington Data Store</strong></p>",
@@ -1100,7 +1180,7 @@
     },
     "widget_223": {
       "uri": "widgets/common/button/",
-      "version": "1.18.0",
+      "version": "1.19.0",
       "label": "Button 10",
       "config": {
         "functionConfig": {
@@ -1123,7 +1203,7 @@
     },
     "widget_304": {
       "uri": "widgets/layout/column/",
-      "version": "1.18.0",
+      "version": "1.19.0",
       "label": "Column 4",
       "config": {
         "space": 10,
@@ -1147,7 +1227,7 @@
     },
     "widget_305": {
       "uri": "widgets/common/text/",
-      "version": "1.18.0",
+      "version": "1.19.0",
       "label": "Text 9",
       "config": {
         "text": "<p><strong style=\"font-size: 32px;\">Outfalls</strong></p>",
@@ -1160,7 +1240,7 @@
     },
     "widget_306": {
       "uri": "widgets/common/image/",
-      "version": "1.18.0",
+      "version": "1.19.0",
       "label": "Image 8",
       "config": {
         "functionConfig": {
@@ -1185,7 +1265,7 @@
     },
     "widget_307": {
       "uri": "widgets/arcgis/map-layers/",
-      "version": "1.18.0",
+      "version": "1.19.0",
       "label": "Map Layers 11",
       "config": {
         "useMapWidget": true,
@@ -1223,7 +1303,7 @@
     },
     "widget_309": {
       "uri": "widgets/layout/column/",
-      "version": "1.18.0",
+      "version": "1.19.0",
       "label": "Column 5",
       "config": {
         "space": 10,
@@ -1247,7 +1327,7 @@
     },
     "widget_310": {
       "uri": "widgets/common/button/",
-      "version": "1.18.0",
+      "version": "1.19.0",
       "label": "Button 18",
       "config": {
         "functionConfig": {
@@ -1269,7 +1349,7 @@
     },
     "widget_311": {
       "uri": "widgets/layout/column/",
-      "version": "1.18.0",
+      "version": "1.19.0",
       "label": "Column 6",
       "config": {
         "space": 10,
@@ -1293,7 +1373,7 @@
     },
     "widget_312": {
       "uri": "widgets/common/button/",
-      "version": "1.18.0",
+      "version": "1.19.0",
       "label": "Button 19",
       "config": {
         "functionConfig": {
@@ -1315,7 +1395,7 @@
     },
     "widget_313": {
       "uri": "widgets/common/image/",
-      "version": "1.18.0",
+      "version": "1.19.0",
       "label": "Image 9",
       "config": {
         "functionConfig": {
@@ -1346,7 +1426,7 @@
     },
     "widget_314": {
       "uri": "widgets/arcgis/map-layers/",
-      "version": "1.18.0",
+      "version": "1.19.0",
       "label": "Map Layers 12",
       "config": {
         "useMapWidget": true,
@@ -1379,7 +1459,7 @@
     },
     "widget_315": {
       "uri": "widgets/common/image/",
-      "version": "1.18.0",
+      "version": "1.19.0",
       "label": "Image 10",
       "config": {
         "functionConfig": {
@@ -1404,7 +1484,7 @@
     },
     "widget_316": {
       "uri": "widgets/arcgis/map-layers/",
-      "version": "1.18.0",
+      "version": "1.19.0",
       "label": "Map Layers 13",
       "config": {
         "useMapWidget": true,
@@ -1437,7 +1517,7 @@
     },
     "widget_317": {
       "uri": "widgets/common/button/",
-      "version": "1.18.0",
+      "version": "1.19.0",
       "label": "Button 20",
       "config": {
         "functionConfig": {
@@ -1460,7 +1540,7 @@
     },
     "widget_318": {
       "uri": "widgets/arcgis/map-layers/",
-      "version": "1.18.0",
+      "version": "1.19.0",
       "label": "Map Layers 14",
       "config": {
         "useMapWidget": true,
@@ -1485,7 +1565,7 @@
     },
     "widget_371": {
       "uri": "widgets/common/text/",
-      "version": "1.18.0",
+      "version": "1.19.0",
       "label": "Text 10",
       "config": {
         "text": "<p><strong style=\"font-size: 33px;\">﻿Barriers﻿</strong></p>",
@@ -1498,7 +1578,7 @@
     },
     "widget_372": {
       "uri": "widgets/layout/column/",
-      "version": "1.18.0",
+      "version": "1.19.0",
       "label": "Column 7",
       "config": {
         "space": 10,
@@ -1522,7 +1602,7 @@
     },
     "widget_373": {
       "uri": "widgets/arcgis/map-layers/",
-      "version": "1.18.0",
+      "version": "1.19.0",
       "label": "Map Layers 15",
       "config": {
         "useMapWidget": true,
@@ -1555,10 +1635,10 @@
     },
     "widget_374": {
       "uri": "widgets/common/filter/",
-      "version": "1.18.0",
+      "version": "1.19.0",
       "label": "edm filter",
       "config": {
-        "logicalOperator": "OR",
+        "logicalOperator": "AND",
         "filterItems": [
           {
             "type": "SINGLE",
@@ -1867,7 +1947,7 @@
     },
     "widget_375": {
       "uri": "widgets/common/button/",
-      "version": "1.18.0",
+      "version": "1.19.0",
       "label": "Button 21",
       "config": {
         "functionConfig": {
@@ -1890,7 +1970,7 @@
     },
     "widget_376": {
       "uri": "widgets/common/image/",
-      "version": "1.18.0",
+      "version": "1.19.0",
       "label": "Image 11",
       "config": {
         "functionConfig": {
@@ -1915,7 +1995,7 @@
     },
     "widget_377": {
       "uri": "widgets/common/button/",
-      "version": "1.18.0",
+      "version": "1.19.0",
       "label": "Button 22",
       "config": {
         "functionConfig": {
@@ -1937,7 +2017,7 @@
     },
     "widget_378": {
       "uri": "widgets/common/image/",
-      "version": "1.18.0",
+      "version": "1.19.0",
       "label": "Image 12",
       "config": {
         "functionConfig": {
@@ -1962,7 +2042,7 @@
     },
     "widget_379": {
       "uri": "widgets/arcgis/map-layers/",
-      "version": "1.18.0",
+      "version": "1.19.0",
       "label": "Map Layers 16",
       "config": {
         "useMapWidget": true,
@@ -1988,7 +2068,7 @@
     },
     "widget_380": {
       "uri": "widgets/common/button/",
-      "version": "1.18.0",
+      "version": "1.19.0",
       "label": "Button 23",
       "config": {
         "functionConfig": {
@@ -2010,7 +2090,7 @@
     },
     "widget_381": {
       "uri": "widgets/common/button/",
-      "version": "1.18.0",
+      "version": "1.19.0",
       "label": "Button 24",
       "config": {
         "functionConfig": {
@@ -2033,7 +2113,7 @@
     },
     "widget_382": {
       "uri": "widgets/common/button/",
-      "version": "1.18.0",
+      "version": "1.19.0",
       "label": "Button 25",
       "config": {
         "functionConfig": {
@@ -2056,7 +2136,7 @@
     },
     "widget_383": {
       "uri": "widgets/common/text/",
-      "version": "1.18.0",
+      "version": "1.19.0",
       "label": "Text 11",
       "config": {
         "text": "<p><strong style=\"font-size: 35px;\">﻿EA DATA</strong></p>",
@@ -2069,7 +2149,7 @@
     },
     "widget_384": {
       "uri": "widgets/common/image/",
-      "version": "1.18.0",
+      "version": "1.19.0",
       "label": "Image 13",
       "config": {
         "functionConfig": {
@@ -2094,7 +2174,7 @@
     },
     "widget_385": {
       "uri": "widgets/arcgis/map-layers/",
-      "version": "1.18.0",
+      "version": "1.19.0",
       "label": "Map Layers 17",
       "config": {
         "useMapWidget": true,
@@ -2116,7 +2196,7 @@
     },
     "widget_387": {
       "uri": "widgets/layout/column/",
-      "version": "1.18.0",
+      "version": "1.19.0",
       "label": "Column 8",
       "config": {
         "space": 10,
@@ -2140,7 +2220,7 @@
     },
     "widget_388": {
       "uri": "widgets/layout/column/",
-      "version": "1.18.0",
+      "version": "1.19.0",
       "label": "Column 9",
       "config": {
         "space": 10,
@@ -2164,7 +2244,7 @@
     },
     "widget_389": {
       "uri": "widgets/common/text/",
-      "version": "1.18.0",
+      "version": "1.19.0",
       "label": "Text 12",
       "config": {
         "text": "<p><span style=\"font-size: 30px;\">Freshwater Watch</span></p>",
@@ -2177,7 +2257,7 @@
     },
     "widget_390": {
       "uri": "widgets/common/button/",
-      "version": "1.18.0",
+      "version": "1.19.0",
       "label": "Button 26",
       "config": {
         "functionConfig": {
@@ -2199,7 +2279,7 @@
     },
     "widget_391": {
       "uri": "widgets/arcgis/map-layers/",
-      "version": "1.18.0",
+      "version": "1.19.0",
       "label": "Map Layers 18",
       "config": {
         "useMapWidget": true,
@@ -2208,7 +2288,8 @@
             "isEnabled": true,
             "showJimuLayerViewIds": [
               "widget_58-dataSource_5-198a4f9dc1f-layer-4",
-              "widget_58-dataSource_5-1995de07e09-layer-13"
+              "widget_58-dataSource_5-1995de07e09-layer-13",
+              "widget_58-dataSource_5-19a9f134c09-layer-27"
             ],
             "hiddenJimuLayerViewIds": []
           }
@@ -2219,6 +2300,156 @@
       "useMapWidgetIds": [
         "widget_58"
       ]
+    },
+    "widget_392": {
+      "uri": "widgets/common/button/",
+      "version": "1.19.0",
+      "label": "Button 27",
+      "config": {
+        "functionConfig": {
+          "text": "Riverfly Monitoring Locations",
+          "textExpression": null,
+          "linkParam": {
+            "linkType": "VIEW",
+            "value": "page_2,view_27",
+            "openType": "_self"
+          }
+        },
+        "styleConfig": {
+          "themeStyle": {
+            "quickStyleType": "primary"
+          },
+          "useCustom": false
+        }
+      },
+      "id": "widget_392"
+    },
+    "widget_405": {
+      "uri": "widgets/layout/column/",
+      "version": "1.19.0",
+      "label": "Column 10",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "space": [
+              10
+            ],
+            "unit": "px"
+          },
+          "justifyContent": "flex-start",
+          "alignItems": "stretch"
+        }
+      },
+      "id": "widget_405",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_307"
+        }
+      }
+    },
+    "widget_406": {
+      "uri": "widgets/common/text/",
+      "version": "1.19.0",
+      "label": "Text 13",
+      "config": {
+        "text": "<p><strong style=\"font-size: 30px;\">﻿Riverfly Locations</strong></p>",
+        "placeholder": "Double click to edit text",
+        "style": {
+          "wrap": true
+        }
+      },
+      "id": "widget_406"
+    },
+    "widget_408": {
+      "uri": "widgets/arcgis/map-layers/",
+      "version": "1.19.0",
+      "label": "Map Layers 19",
+      "config": {
+        "useMapWidget": true,
+        "customizeLayerOptions": {
+          "widget_58-dataSource_5": {
+            "isEnabled": true,
+            "showJimuLayerViewIds": [
+              "widget_58-dataSource_5-19a9e8aa18c-layer-19"
+            ],
+            "hiddenJimuLayerViewIds": []
+          }
+        },
+        "useTickBoxes": true
+      },
+      "id": "widget_408",
+      "useMapWidgetIds": [
+        "widget_58"
+      ]
+    },
+    "widget_411": {
+      "uri": "widgets/arcgis/map-layers/",
+      "version": "1.19.0",
+      "label": "Map Layers 20",
+      "config": {
+        "useMapWidget": true,
+        "customizeLayerOptions": {
+          "widget_58-dataSource_5": {
+            "isEnabled": true,
+            "showJimuLayerViewIds": [
+              "widget_58-dataSource_5-198a4f9dc1f-layer-4",
+              "widget_58-dataSource_5-1995de07e09-layer-13",
+              "widget_58-dataSource_5-19a9e7b433d-layer-18"
+            ],
+            "hiddenJimuLayerViewIds": []
+          }
+        },
+        "useTickBoxes": true
+      },
+      "id": "widget_411",
+      "useMapWidgetIds": [
+        "widget_58"
+      ]
+    },
+    "widget_412": {
+      "uri": "widgets/arcgis/map-layers/",
+      "version": "1.19.0",
+      "label": "Map Layers 21",
+      "config": {
+        "useMapWidget": true,
+        "customizeLayerOptions": {
+          "widget_58-dataSource_5": {
+            "isEnabled": true,
+            "showJimuLayerViewIds": [
+              "widget_58-dataSource_5-19ae96a2e0c-layer-31"
+            ],
+            "hiddenJimuLayerViewIds": []
+          }
+        },
+        "useTickBoxes": true
+      },
+      "id": "widget_412",
+      "useMapWidgetIds": [
+        "widget_58"
+      ]
+    },
+    "widget_413": {
+      "uri": "widgets/common/button/",
+      "version": "1.19.0",
+      "label": "Button 28",
+      "config": {
+        "functionConfig": {
+          "text": "Home",
+          "textExpression": null,
+          "linkParam": {
+            "linkType": "VIEW",
+            "value": "page_2,view_20",
+            "openType": "_self"
+          }
+        },
+        "styleConfig": {
+          "themeStyle": {
+            "quickStyleType": "default"
+          }
+        }
+      },
+      "id": "widget_413"
     }
   },
   "widgetsManifest": {},
@@ -2265,6 +2496,13 @@
       "layout": {
         "LARGE": "layout_300"
       }
+    },
+    "view_27": {
+      "id": "view_27",
+      "label": "Riverfly Location",
+      "layout": {
+        "LARGE": "layout_306"
+      }
     }
   },
   "sections": {
@@ -2277,7 +2515,8 @@
         "view_22",
         "view_23",
         "view_24",
-        "view_25"
+        "view_25",
+        "view_27"
       ]
     }
   },
@@ -2376,15 +2615,6 @@
           "layerId": "0",
           "url": "https://services3.arcgis.com/Bb8lfThdhugyc4G3/arcgis/rest/services/riverobstacles_mtt/FeatureServer/0"
         },
-        "198a4f9e1dc-layer-5": {
-          "id": "dataSource_5-198a4f9e1dc-layer-5",
-          "type": "FEATURE_LAYER",
-          "sourceLabel": "FreshWaterWatch_mtt",
-          "portalUrl": "https://www.arcgis.com",
-          "itemId": "fd92d4471c2543499aa837df89aa631c",
-          "layerId": "0",
-          "url": "https://services3.arcgis.com/Bb8lfThdhugyc4G3/arcgis/rest/services/FreshWaterWatch_mtt/FeatureServer/0"
-        },
         "198a4f9dc1f-layer-4": {
           "id": "dataSource_5-198a4f9dc1f-layer-4",
           "type": "FEATURE_LAYER",
@@ -2445,6 +2675,6 @@
       "orgSetting": {}
     }
   },
-  "timestamp": 1759793927035,
+  "timestamp": 1765212316554,
   "customTheme": {}
 }

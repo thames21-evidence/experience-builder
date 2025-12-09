@@ -2,7 +2,7 @@
   "created": 1755546036096,
   "description": "",
   "id": "0",
-  "modified": 1759793930246,
+  "modified": 1765212316600,
   "owner": "harrison.tremain@thames21",
   "tags": [
     ""
@@ -16,14 +16,15 @@
     "EXB Experience",
     "JavaScript",
     "Ready To Use",
-    "status: Published",
-    "version:1.18.0",
+    "status: Changed",
+    "version:1.19.0",
     "Web Application",
     "Web Experience",
     "Web Mapping Application",
     "Web Page",
     "Web Site",
-    "publishVersion:1.18.0"
+    "publishVersion:1.19.0",
+    "modified: 1765212316598"
   ],
   "portalUrl": "https://theriverstrust.maps.arcgis.com",
   "username": "harrison.tremain@thames21",
